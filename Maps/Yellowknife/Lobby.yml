@@ -1,0 +1,12 @@
+Zone: Lobby
+JoinDelay: 1s
+Settings:
+  Object: 14c20342cd344cddb34960d4b1e73d55
+Flags:
+  - Team: Canada
+    Object: caa1c594c6244f05878170551a693202
+    Flag: 56400
+  - Team: Russia
+    Object: 259f2a8046634351b9ecce239c28353c
+    Flag: 56401
+Disabled: false

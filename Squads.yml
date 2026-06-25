@@ -1,0 +1,8 @@
+KitClassesAllowedPerXTeammates:
+  AutomaticRifleman: 4
+  Grenadier: 3
+  Marksman: 6
+  MachineGunner: 4
+  Sniper: 8
+  HAT: 4
+  CombatEngineer: 3

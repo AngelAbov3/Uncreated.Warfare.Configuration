@@ -1,0 +1,170 @@
+{
+    "$schema": "https://raw.githubusercontent.com/DanielWillett/DevkitServer/master/Module/Schemas/permission_groups_schema.json",
+    "default_group": "member",
+    "groups":
+    [
+        {
+            "id": "member",
+            "name": "Member", 
+            "color": "#aa71c1",
+            "priority": 0,
+            "permissions":
+            [
+                "warfare::commands.permission",
+                "warfare::commands.abandon",
+                "warfare::commands.ammo",
+                "warfare::commands.link",
+                "warfare::commands.build",
+                "warfare::commands.buy",
+                "warfare::commands.confirm",
+                "warfare::commands.deny",
+                "warfare::commands.deploy",
+                "warfare::commands.discord",
+                "warfare::commands.group",
+                "warfare::commands.holiday",
+                "warfare::commands.help",
+                "warfare::commands.load",
+                "warfare::commands.options",
+                "warfare::commands.range",
+                "warfare::commands.report",
+                "warfare::commands.request.*",
+                "warfare::commands.structure.examine",
+                "warfare::commands.unstuck",
+                "warfare::commands.zone.util.location",
+                "warfare::commands.zone.visualize",
+                "warfare::commands.vehicle.kick",
+                "warfare::commands.vehicle.give",
+                "warfare::commands.kits",
+                "warfare::commands.kit.hotkey.*",
+                "warfare::commands.kit.layout.*",
+                "warfare::commands.kit.favorite.*",
+                "warfare::commands.kit.unfavorite.*",
+                "warfare::commands.kit.rename.*",
+                "warfare::commands.rally",
+                "warfare::commands.squad",
+                "warfare::commands.teams",
+                "warfare::commands.vehiclebay.spawn.check"
+            ]
+        },
+        {
+            "id": "test",
+            "name": "Test",
+            "priority": 0
+        },
+        {
+            "id": "staff-off-duty",
+            "name": "Staff (Off Duty)",
+            "color": "#aa71c1",
+            "priority": 1,
+            "permissions":
+            [
+                "warfare::commands.duty",
+                "warfare::commands.warfaredev.squads.menu"
+            ]
+        },
+        {
+            "id": "staff-on-duty",
+            "name": "Staff",
+            "color": "#0099ff",
+            "priority": 1,
+            "permissions":
+            [
+                "warfare::commands.attach",
+                "warfare::commands.duty",
+                "warfare::commands.moderate",
+                "warfare::commands.moderate",
+                "warfare::commands.mute",
+                "warfare::commands.unmute",
+                "warfare::commands.ban",
+                "warfare::commands.unban",
+                "warfare::commands.warn",
+                "warfare::commands.kick",
+                "warfare::commands.savevoice",
+                "warfare::commands.structure.*",
+                "warfare::commands.give",
+                "warfare::commands.vehicle.*",
+                "warfare::commands.vehiclebay.force",
+                "warfare::commands.teleport",
+                "warfare::commands.vanish",
+                "warfare::features.god",
+                "warfare::commands.zone.go",
+                "warfare::commands.group.*",
+                "unturned::commands.spy",
+                "warfare::actions.barricades.edit_sign",
+                "warfare::actions.items.pickup_any",
+                "warfare::actions.buildables.destroy_any",
+                "warfare::actions.buildables.place_any",
+                "warfare::commands.warfaredev.quickcap",
+                "warfare::features.swap_clothing"
+            ]
+        },
+        {
+            "id": "trial-off-duty",
+            "name": "Trial Admin (Off Duty)",
+            "color": "#aa71c1",
+            "priority": 2,
+            "permissions":
+            [
+
+            ]
+        },
+        {
+            "id": "trial-on-duty",
+            "name": "Trial Admin",
+            "color": "#0099ff",
+            "priority": 2,
+            "permissions":
+            [
+
+            ]
+        },
+        {
+            "id": "admin-off-duty",
+            "name": "Admin (Off Duty)",
+            "color": "#0099ff",
+            "priority": 3,
+            "permissions":
+            [
+
+            ]
+        },
+        {
+            "id": "admin-on-duty",
+            "name": "Admin",
+            "color": "#aa71c1",
+            "priority": 3,
+            "permissions":
+            [
+                "warfare::commands.clear.*",
+                "warfare::commands.ipwhitelist",
+                "warfare::commands.jump",
+                "warfare::commands.speed",
+                "warfare::commands.trait.*",
+                "warfare::commands.heal",
+                "warfare::commands.vehiclebay.*",
+                "warfare::commands.whitelist.*",
+                "warfare::commands.zone.*",
+                "warfare::commands.kit.*",
+                "warfare::commands.test.*",
+                "unturned::commands.day",
+                "unturned::commands.night",
+                "unturned::commands.kill",
+                "unturned::commands.weather",
+                "unturned::features.freecam",
+                "unturned::features.workzone",
+                "unturned::features.swap_clothing",
+                "warfare::commands.points.*"
+            ]
+        },
+        {
+            "id": "owner",
+            "name": "Owner",
+            "color": "#0099ff",
+            "priority": 4,
+            "permissions":
+            [
+                "*"
+            ]
+        }
+    ]
+}

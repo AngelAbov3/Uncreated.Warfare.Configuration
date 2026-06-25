@@ -1,0 +1,29 @@
+VehicleAsset: ed73b3e6611c4468952463f69f63fbe9
+Type: Jet
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+ShortName: F/A-18 Hornet
+Crew:
+  Seats:
+    - 0
+    - 1
+    - 2
+    - 3
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 20
+  Items:
+    - 3044aff8e6624aee97c342e7a224a082 # 20x102mm AP Incendiary Shells
+    - 3044aff8e6624aee97c342e7a224a082
+    - bc2b7c9e44ee42df93a5eebd693d554b # 4x Aim-9 Sidewinder
+    - bc2b7c9e44ee42df93a5eebd693d554b
+    - 6076243873fe410cb4c3c91bb82f3248 # Mk 82 Bombs
+    - 6076243873fe410cb4c3c91bb82f3248
+    - ccf8a9df6160420788af150378355ee7 # AGM-65 Maverick Laser-Guided Missile
+    - ccf8a9df6160420788af150378355ee7

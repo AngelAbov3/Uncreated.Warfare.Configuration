@@ -1,0 +1,22 @@
+VehicleAsset: 9d305050a6a142349376d6c49fb38362
+Type: ATGM
+Branch: Default
+Class: None
+TicketCost: 0
+RespawnTime: 0s
+Cooldown: 0s
+ShortName: BGM-71 TOW
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 4
+  Items:
+    - 3128a69d06ac4bbbbfddc992aa7185a6 # TOW Munition
+    - 3128a69d06ac4bbbbfddc992aa7185a6
+    - 3128a69d06ac4bbbbfddc992aa7185a6
+Abandon:
+  AllowAbandon: false

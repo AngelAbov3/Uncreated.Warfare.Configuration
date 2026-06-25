@@ -1,0 +1,9 @@
+MapTables:
+    # Yellowknife
+  - BuildableAsset: b4fd2299e28743daba7c63611c47d9ed
+    MapTableSquareWidth: 8
+    VerticalSurfaceOffset: 0
+    # Gulf of Aqaba
+  - BuildableAsset: 6cc1cfda996447cb8f4fab719a41c67c
+    MapTableSquareWidth: 8
+    VerticalSurfaceOffset: 0

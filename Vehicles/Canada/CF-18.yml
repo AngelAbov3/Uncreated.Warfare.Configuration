@@ -1,0 +1,20 @@
+VehicleAsset: af229d589a764687842ed64c5e30a694
+Type: Jet
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+ShortName: CF-18 Hornet
+Crew:
+  Seats:
+    - 0
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 15
+  Items:
+    - 09ef20baef4744ec93824f508a5fc4e3 # 6x Aim-9 Sidewinder
+    - 09ef20baef4744ec93824f508a5fc4e3

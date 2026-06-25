@@ -1,0 +1,27 @@
+VehicleAsset: 46f7e323f17f49cab3ee80a1b77c653d
+Type: Humvee
+Branch: Default
+Class: None
+TicketCost: 5
+RespawnTime: 5m
+Cooldown: 0m
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - d5b9f19e2f2a4ee2ab4dc666f32f7df3 # Portable Gas Can
+  - 1f80a9e0c86047d38b72e08e267885f6 # Carjack
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 2
+  Items:
+    - 523c49ce4df44d46ba37be0dd6b4504b # 50cal_Box
+    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 523c49ce4df44d46ba37be0dd6b4504b
+Trunk:
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 0
+    Y: 0
+    Rotation: 0

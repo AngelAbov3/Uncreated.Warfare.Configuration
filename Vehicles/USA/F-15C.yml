@@ -1,0 +1,19 @@
+VehicleAsset: 2ccb6b74a62447dfb745fb8534fff4b3
+Type: Jet
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+Crew:
+  Seats:
+    - 0
+  Invincible: true
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 15
+  Items:
+    - 09ef20baef4744ec93824f508a5fc4e3 # 6x AIM-9 Sidewinder Missiles
+    - 09ef20baef4744ec93824f508a5fc4e3

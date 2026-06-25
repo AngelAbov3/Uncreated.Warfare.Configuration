@@ -1,0 +1,16 @@
+# System Config.yml
+Quests/*
+!Quests/Quest Types.yml
+Plugins/**
+Maps/*/BarricadeStateSaves.yml
+Layouts/AAS
+Layouts/FlagVariations
+Layouts/Insurgency
+Layouts/Invasion
+Layouts/VehicleConfigurations
+!Layouts/Seeding/**
+Leaderboard/*.yml
+Kits/Default Items.yml
+Voice
+uncreated_logo.jpg
+Translations

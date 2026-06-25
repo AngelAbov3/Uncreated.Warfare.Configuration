@@ -1,0 +1,40 @@
+Deploy:
+  Duration: 30s
+
+Change Teams:
+  Duration: 30m
+
+Report:
+  Duration: 1hr
+  ResetOnGameEnd: false
+
+Vehicle Interact:
+  Duration: 5s
+
+Combat:
+  Duration: 30s
+
+Revive XP:
+  Duration: 2m30s
+
+Command:
+  Duration: 0s
+
+Isolated Command:
+  Duration: 0s
+
+Request Kit:
+  Duration: 2s
+
+Request Premium Kit:
+  Duration: 2s
+
+Vehicle Interaction:
+  Duration: 7.5s
+
+FOB Deploy:
+  MinimumPlayers: 24
+  MaximumPlayers: 60
+  MinimumCooldown: 60
+  MaximumCooldown: 90
+  Alpha: 2

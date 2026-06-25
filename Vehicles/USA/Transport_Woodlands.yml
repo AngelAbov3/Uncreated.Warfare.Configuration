@@ -1,0 +1,34 @@
+VehicleAsset: 1e75b6bc2514457db799a3a0468ca4c8
+Type: TransportGround
+Branch: Default
+Class: None
+TicketCost: 5
+RespawnTime: 5m
+Cooldown: 0m
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - d5b9f19e2f2a4ee2ab4dc666f32f7df3 # Portable Gas Can
+  - 1f80a9e0c86047d38b72e08e267885f6 # Carjack
+Rearm:
+  AmmoConsumed: 0
+  Items: []
+Trunk:
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 0
+    Y: 0
+    Rotation: 0
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 4
+    Y: 0
+    Rotation: 0
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 0
+    Y: 3
+    Rotation: 0
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 4
+    Y: 3
+    Rotation: 0

@@ -1,0 +1,103 @@
+permissions:
+  member: "member"
+  staff_off_duty: "staff-off-duty"
+  staff_on_duty: "staff-on-duty"
+  trial_off_duty: "trial-off-duty"
+  trial_on_duty: "trial-on-duty"
+  admin_off_duty: "admin-off-duty"
+  admin_on_duty: "admin-on-duty"
+  owner: "owner"
+
+tests:
+  # If set to true, bans anyone that joins as a cheater. Used to test UCS integration.
+  sim_cheater_ban: false
+  # Uncomment to force the given layout on startup
+  # startup_layout: Seeding\Yellowknife FTDM Refinery.yml
+
+# Uncomment to enable UCS bans
+# ucs:
+#   api_key: ""
+#   base_url: "https://ucs.thesanctum.eu/"
+
+# services:
+#   - "UcsGlobalBanConfigurer"
+
+kits:
+  loadout_cost_usd: 10.00
+
+steam_api_key: ""
+zipkin_uri: "http://localhost:9411/"
+
+daily_quests:
+  enabled: true
+  mod_enabled: false
+  mod_icon: "./Servers/UncreatedSeason4/Warfare/mod_image.jpg"
+  mod_name: "Daily Quests (Test Mod)"
+  steamcmd: "../../../steamcmd.exe"
+  steam_username: TODO
+  # steam_password needs to be converted to UTF-8 bytes then encoded as Base64
+  # | csharp:
+  # | steam_password = Convert.ToBase64String(Encoding.UTF8.GetBytes(actualPassword));
+  steam_password: TODO
+
+translations:
+  enum_formatter_type: "Uncreated.Warfare.Translations.ValueFormatters.PropertiesEnumValueFormatter`1"
+
+logging:
+  terminal_coloring: ExtendedANSIColor
+  minimum_level: Trace
+  filters:
+    Microsoft: Information
+    Uncreated.Warfare.Database: Warning
+    Uncreated.Warfare.Events: Debug
+    Uncreated.Warfare.Vehicles: Information
+    Uncreated.Warfare.Zones.ElectricalGridService: Information
+    Uncreated.Warfare.Layouts.Flags.FlagElectricalGridHandler: Information
+    Uncreated.Warfare.Networking.HomebaseConnector: Trace
+    Microsoft.EntityFrameworkCore.Database.Command: Warning
+    Microsoft.EntityFrameworkCore.Infrastructure: Warning
+
+# Matches a language from the database
+default_language: "en-us"
+# Matches a .NET culture
+# see https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo#culture-names-and-identifiers
+default_culture: "en-US"
+# can be just a code or an entire URL
+discord_invite_code: "https://uncreated.network/discord"
+# Guild ID of the primary discord for the server
+discord_guild_id: 353386804386332673
+# Arbitrary ID for supporting multiple Warfare servers at once. Not fully implemented
+region: 1
+anticheat_ban_rep: -100
+
+database:
+  # see bottom of file
+  connection_string_name: warfare-db
+  sensitive_data_logging: true
+  # Forwards port 3306 over SSH so you can connect to a remote database without exposing it to the internet
+  # ssh_key: '%USERPROFILE%\.ssh\ssh.key'
+  # ssh_user: "TODO"
+  # ssh_host: "TODO"
+  # ssh_password: "TODO"
+
+interactions:
+  # time in between each chat tip (Defined in AnnouncementService.cs)
+  announcement_time_sec: 60
+
+# The current map to load. Doesn't use the info in the database quite yet, it's all hardcoded in MapScheduler.cs
+map: "Yellowknife"
+
+seeding:
+  enabled: true
+  # once the player count drops to this number a vote will start
+  start_vote_players: 5
+  # once the player count reaches this number a real gamemode will start
+  start_game_players: 6
+  countdown_time: 30s
+  vote_time: 1m
+  track_points: false
+  track_stats: true
+
+# this is a preset constant by Microsoft, which is why the casing doesn't match
+ConnectionStrings:
+  warfare-db: "server=[TODO];port=3306;database=[TODO];uid=[TODO];password=[TODO];ApplicationName=[TODO];charset=utf8;AllowUserVariables=true;Pooling=true;SslMode=Preferred;ConvertZeroDateTime=True;"

@@ -1,0 +1,25 @@
+VehicleAsset: 94bf8feb05bc4680ac26464bc175460c
+Type: Mortar
+Branch: Default
+Class: None
+TicketCost: 0
+RespawnTime: 0s
+Cooldown: 0s
+ShortName: 81mm Mortar
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 3
+  Items:
+    - 66f4c76a119e4d6ca9d0b1a866c4d901 # Mortar Shell
+    - 66f4c76a119e4d6ca9d0b1a866c4d901
+    - 66f4c76a119e4d6ca9d0b1a866c4d901
+    - 66f4c76a119e4d6ca9d0b1a866c4d901
+    - 66f4c76a119e4d6ca9d0b1a866c4d901
+    - 66f4c76a119e4d6ca9d0b1a866c4d901
+Abandon:
+  AllowAbandon: false

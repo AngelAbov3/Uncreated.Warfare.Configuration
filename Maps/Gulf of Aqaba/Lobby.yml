@@ -1,0 +1,12 @@
+Zone: Lobby
+JoinDelay: 1s
+Settings:
+  Object: 14c20342cd344cddb34960d4b1e73d55
+Flags:
+  - Team: USA
+    Object: c948fd61f8db4ddb9cd9ce6e70c5d11d
+    Flag: 56405
+  - Team: MEC
+    Object: 875c795e99da490e84223c5c1a7ac1f4
+    Flag: 56404
+Disabled: false

@@ -1,0 +1,47 @@
+VehicleAsset: 8267767a33974b05827ed01d19b004f1
+Type: MBT
+Branch: Armor
+Class: Crewman
+TicketCost: 15
+RespawnTime: 15m
+Cooldown: 15m
+Crew:
+  Seats:
+    - 0
+    - 1
+    - 2
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 7
+  Items:
+    - 3044b50736cd46e283fe31911a05b978 # 120mm Sabot
+    - 3044b50736cd46e283fe31911a05b978
+    - 3044b50736cd46e283fe31911a05b978
+    - 3044b50736cd46e283fe31911a05b978
+    - 3044b50736cd46e283fe31911a05b978
+    - 3044b50736cd46e283fe31911a05b978
+    - ca863fb2058d4e4c8200bd5816bf8832 # 120mm Frag
+    - ca863fb2058d4e4c8200bd5816bf8832
+    - ca863fb2058d4e4c8200bd5816bf8832
+    - ca863fb2058d4e4c8200bd5816bf8832
+    - ca863fb2058d4e4c8200bd5816bf8832
+    - ca863fb2058d4e4c8200bd5816bf8832
+    - 523c49ce4df44d46ba37be0dd6b4504b # .50 Cal Ammunition Crate
+    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 5b2ca432d9ac496ca0a909501ecc45ae # Smoke Munition
+    - 5b2ca432d9ac496ca0a909501ecc45ae
+    - 5b2ca432d9ac496ca0a909501ecc45ae
+
+Trunk:
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 0
+    Y: 0
+    Rotation: 0
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 4
+    Y: 0
+    Rotation: 0

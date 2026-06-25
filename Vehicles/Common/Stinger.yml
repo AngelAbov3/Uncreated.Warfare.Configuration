@@ -1,0 +1,22 @@
+VehicleAsset: 1883345cbdad40aa81e49c84e6c872ef
+Type: AA
+Branch: Default
+Class: None
+TicketCost: 0
+RespawnTime: 0s
+Cooldown: 0s
+ShortName: FIM-92 Stinger
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 3
+  Items:
+    - 3c0a94af5af24901a9e3207f3e9ed0ba # Stinger Munition
+    - 3c0a94af5af24901a9e3207f3e9ed0ba
+    - 3c0a94af5af24901a9e3207f3e9ed0ba
+Abandon:
+  AllowAbandon: false

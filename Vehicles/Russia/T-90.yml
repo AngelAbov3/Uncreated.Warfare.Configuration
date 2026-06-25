@@ -1,0 +1,47 @@
+VehicleAsset: 283ba86868da4a1098a780dfb24deaf4
+Type: MBT
+Branch: Armor
+Class: Crewman
+TicketCost: 15
+RespawnTime: 15m
+Cooldown: 15m
+ShortName: T-90
+Crew:
+  Seats:
+    - 0
+    - 1
+    - 2
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 7
+  Items:
+    - 6da422effa124df38fde31b5ec792218 # 125mm Sabot
+    - 6da422effa124df38fde31b5ec792218
+    - 6da422effa124df38fde31b5ec792218
+    - 6da422effa124df38fde31b5ec792218
+    - 6da422effa124df38fde31b5ec792218
+    - 6da422effa124df38fde31b5ec792218
+    - 9cfa55396aea4ba2b135d7a59b3b838c # 125mm Frag
+    - 9cfa55396aea4ba2b135d7a59b3b838c
+    - 9cfa55396aea4ba2b135d7a59b3b838c
+    - 9cfa55396aea4ba2b135d7a59b3b838c
+    - 9cfa55396aea4ba2b135d7a59b3b838c
+    - 9cfa55396aea4ba2b135d7a59b3b838c
+    - 6e9bc2083a1246b49b1656c2ec6f535a # 12.7x108mm Box
+    - 6e9bc2083a1246b49b1656c2ec6f535a
+    - 6e9bc2083a1246b49b1656c2ec6f535a
+    - 5b2ca432d9ac496ca0a909501ecc45ae # Smoke Munition
+    - 5b2ca432d9ac496ca0a909501ecc45ae
+    - 5b2ca432d9ac496ca0a909501ecc45ae
+Trunk:
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 0
+    Y: 0
+    Rotation: 0
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 4
+    Y: 0
+    Rotation: 0

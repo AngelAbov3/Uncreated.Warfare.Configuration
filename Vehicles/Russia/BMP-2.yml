@@ -1,0 +1,41 @@
+VehicleAsset: 4267c04222ca4811b957540dab7b3d0f
+Type: IFV
+Branch: Armor
+Class: Crewman
+TicketCost: 10
+RespawnTime: 10m
+Cooldown: 10m
+ShortName: BMP-2
+Crew:
+  Seats:
+    - 0
+    - 1
+    - 2
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 4
+  Items:
+    - 5d7b6736471449ef91cf8d1dc190d987 # 25x137mm AP
+    - 5d7b6736471449ef91cf8d1dc190d987
+    - 5d7b6736471449ef91cf8d1dc190d987
+    - 37d3c65aaa4d4e979347e07cb69d105c # 25x137mm HE
+    - 37d3c65aaa4d4e979347e07cb69d105c
+    - 37d3c65aaa4d4e979347e07cb69d105c
+    - 08ad431876f4428296b5af2c92240170 # Konkurs Munition
+    - 08ad431876f4428296b5af2c92240170 
+    - 5b2ca432d9ac496ca0a909501ecc45ae # Smoke Munition
+    - 5b2ca432d9ac496ca0a909501ecc45ae
+    - 5b2ca432d9ac496ca0a909501ecc45ae
+
+Trunk:
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 0
+    Y: 0
+    Rotation: 0
+  - Item: 5c88dbd8e81444678f0f3a653f3e7e5d
+    X: 4
+    Y: 0
+    Rotation: 0

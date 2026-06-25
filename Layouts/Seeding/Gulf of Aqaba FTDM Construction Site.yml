@@ -1,0 +1,32 @@
+Type: Layout
+Name: FTDM (Construction Site)
+GamemodeName: Free Team Deathmatch
+LayoutName: Construction Site
+Weight: 1
+Map: Gulf of Aqaba
+Services:
+  - "Uncreated.Warfare.FreeTeamDeathmatch.LayoutServiceConfigurer, Uncreated.Warfare.FreeTDM"
+IsSeeding: true
+
+Teams:
+  ManagerType: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmDualSidedTeamManager, Uncreated.Warfare.FreeTDM"
+  Teams:
+    - Role: None
+      Faction: Map 1
+
+    - Role: None
+      Faction: Map 2
+  Import: "Locations/Gulf of Aqaba Locations.yml"
+  Location: "FTDM Construction Site"
+
+Components:
+  - Type: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmService, Uncreated.Warfare.FreeTDM"
+    AllowReenterSpwan: true
+    Kits:
+      usa: [ usrif1, usmed1, usbre1, usar1 ]
+      mec: [ merif1, memed1, mebre1, mear1 ]
+
+Phases:
+  - Type: ActionPhase
+    Name:
+      en_us: Action Phase

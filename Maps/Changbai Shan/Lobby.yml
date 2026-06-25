@@ -1,0 +1,12 @@
+Zone: Lobby
+JoinDelay: 1s
+Settings:
+  Object: 14c20342cd344cddb34960d4b1e73d55
+Flags:
+  - Team: Germany
+    Object: 2e7d43ccd31d4cafb5a6feb70c74aaae
+    Flag: 56403
+  - Team: China
+    Object: 618b01e149264ab29eb2baddef2e57c3
+    Flag: 56402
+Disabled: true

@@ -1,0 +1,32 @@
+Type: Layout
+Name: FTDM (Cargo Containers)
+GamemodeName: Free Team Deathmatch
+LayoutName: Cargo Containers
+Weight: 1
+Map: Gulf of Aqaba
+Services:
+  - "Uncreated.Warfare.FreeTeamDeathmatch.LayoutServiceConfigurer, Uncreated.Warfare.FreeTDM"
+IsSeeding: true
+
+Teams:
+  ManagerType: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmDualSidedTeamManager, Uncreated.Warfare.FreeTDM"
+  Teams:
+    - Role: None
+      Faction: Map 1
+
+    - Role: None
+      Faction: Map 2
+  Import: "Locations/Gulf of Aqaba Locations.yml"
+  Location: "FTDM Cargo Containers"
+
+Components:
+  - Type: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmService, Uncreated.Warfare.FreeTDM"
+    AllowReenterSpwan: true
+    Kits:
+      usa: [ usmar1, usrif1, usmed1, usbre1, usar1 ]
+      mec: [ memar1, merif1, memed1, mebre1, mear1 ]
+
+Phases:
+  - Type: ActionPhase
+    Name:
+      en_us: Action Phase

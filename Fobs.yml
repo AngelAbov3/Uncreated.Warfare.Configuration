@@ -1,0 +1,221 @@
+FobDeployDelay: 7
+MaxNumberOfFobs: 10
+MinDistanceBetweenFobs: 150
+MinFobDistanceFromMain: 300
+SupplyCrates:
+  - SupplyItemAsset: a2eb76590cf74401aeb7ff4b4b79fd86
+    Type: Build
+    PlacementEffect: 066c35a3e97e476a9f0a75218b4f6683
+    StartingSupplies: 30
+    SupplyRadius: 40
+    Icon: Effects:Fobs:Build
+    IconOffset: (0, 1, 0)
+  - SupplyItemAsset: de94da4a993e4ebdbfd56d6e73d0af78
+    Type: Ammo
+    PlacementEffect: 066c35a3e97e476a9f0a75218b4f6683
+    StartingSupplies: 15
+    SupplyRadius: 40
+    Icon: Effects:Fobs:Ammo
+    IconOffset: (0, 0.75, 0)
+  - SupplyItemAsset: 5c88dbd8e81444678f0f3a653f3e7e5d
+    Type: Ammo
+    PlacementEffect: 066c35a3e97e476a9f0a75218b4f6683
+    StartingSupplies: 5
+    SupplyRadius: 40
+    Icon: Effects:Fobs:Ammo
+Shovelables:
+    # Fob
+  - Foundation: 1bb17277dd8148df9f4c53d1a19b2503
+    FoundationIcon: Effects:Fobs:RadioDamaged
+    Icon: Effects:Fobs:Bunker
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fob
+    SupplyCost: 10
+    RequiredShovelHits: 20
+    CompletedStructure: 61c349f10000498fa2b92c029d38e523 
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    # TOW
+  - Foundation: a68ae466fb804829a0eb0d4556071801
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 15
+    RequiredShovelHits: 15
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 1
+    Emplacement:
+      Vehicle: 9d305050a6a142349376d6c49fb38362
+  # Kornet
+  - Foundation: 37811b1847744c958fcb30a0b759874b
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 15
+    RequiredShovelHits: 15
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 1
+    Emplacement:
+      Vehicle: 677b1084dffa463384d29167a3fae25b
+  # M2A1
+  - Foundation: 80396c361d3040d7beb3921964ec2997
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 5
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 2
+    Emplacement:
+      Vehicle: aa3c6af4911243b5b5c9dc95ca1263bf
+  # Kord
+  - Foundation: e44ba62f763c432e882ddc7eabaa9c77
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 5
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 2
+    Emplacement:
+      Vehicle: 86cfe1eb8be144aeae7659c9c74ff11a
+  # Stinger
+  - Foundation: 3c2dd7febc854b7f8859852b8c736c8e
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 15
+    RequiredShovelHits: 15
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 1
+    Emplacement:
+      Vehicle: 1883345cbdad40aa81e49c84e6c872ef
+  # Igla
+  - Foundation: b50cb548734946ffa5f88d6691a2c7ce
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 15
+    RequiredShovelHits: 15
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 1
+    Emplacement:
+      Vehicle: 8add59a2e2b94f93ab0d6b727d310097
+  # Mortar
+  - Foundation: 6ff4826eaeb14c7cac1cf25a55d24bd3
+    CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
+    IconOffset: (0, 1, 0)
+    ConstuctionType: Emplacement
+    SupplyCost: 10
+    RequiredShovelHits: 12
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 2
+    Emplacement:
+      Vehicle: 94bf8feb05bc4680ac26464bc175460c
+  # Sandbag Line
+  - Foundation: 15f674dcaf3f44e19a124c8bf7e19ca2
+    CompletedStructure: ab702192eab4456ebb9f6d7cc74d4ba2
+    IconOffset: (0, 1.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 4
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Sandbag Pillbox
+  - Foundation: a9294335d8e84b76b1cbcb7d70f66aaa
+    CompletedStructure: f3bd9ee2fa334faabc8fd9d5a3b84424
+    IconOffset: (0, 1.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 4
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Sandbag Ring
+  - Foundation: 920f8b30ae314406ab032a0c2efa753d
+    CompletedStructure: eefee76f077349e58359f5fd03cf311d
+    IconOffset: (0, 1.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 1
+    RequiredShovelHits: 6
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Sandbag Foxhole
+  - Foundation: 12ea830dd9ab4f949893bbbbc5e9a5f6
+    CompletedStructure: a71e3e3d6bb54a36b7bd8bf5f25160aa
+    IconOffset: (0, 1.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 2
+    RequiredShovelHits: 15
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Razor Wire
+  - Foundation: a2a8a01a58454816a6c9a047df0558ad
+    CompletedStructure: bc24bd85ff714ff7bb2f8b2dd5056395
+    IconOffset: (0, 1.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 3
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Camo Netting Square
+  - Foundation: 224b3c09335c4da0968e68d18f27da73
+    CompletedStructure: 9e156cac231a4ebeab7504e578180427
+    IconOffset: (0, 0.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 1
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Camo Netting Square Draped
+  - Foundation: 561b21d17408469190db6e0290a4ee03
+    CompletedStructure: 0b2cc421a84b41b6ad472015ea5aba05
+    IconOffset: (0, 0.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Camo Netting Wall
+  - Foundation: ef46dc8cfde84cdc9c864e644bb5eb54
+    CompletedStructure: 78511967b00d401e9037a6d6346177fb
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 8
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Forest Hesco Wall
+  - Foundation: baf23a8b514441ee8db891a3ddf32ef4
+    CompletedStructure: 385d485b3b8a4360b25aef645e8de5fd
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 2
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 6
+  # Forest Hesco Tower
+  - Foundation: 827d0ca8bfff43a39f750f191e16ea71
+    CompletedStructure: d218dac48e164ef5a810bd33bfe524ee
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 2
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 6
+  # Repair Station
+  - Foundation: 26a6b91cd1944730a0f28e5f299cebf9 
+    CompletedStructure: c0d11e0666694ddea667377b4c0580be
+    IconOffset: (0, 3.5, 0)
+    Icon: Effects:Fobs:Repair
+    ConstuctionType: RepairStation
+    SupplyCost: 5
+    RequiredShovelHits: 15
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Cache
+  - Foundation: "00000000000000000000000000000000" 
+    CompletedStructure: 39051f33f24449b4b3417d0d666a4f27
+    IconOffset: (0, 1.5, 0)
+    ConstuctionType: Fob
+    SupplyCost: 0
+    RequiredShovelHits: 1
+
+ThrowableAmmoBags:
+  - ThrowableItemAsset: 16f55b999e9b4f158be12645e41dd753
+    AmmoBagBarricadeAsset: 98617e28531849b399ed35da7db20216
+    StartingAmmo: 5
+ThrowableVehicleSupplyCrates:
+  - ThrowableItemAsset: 08677ddc06604ac0b81f3ad8a65eb182
+    ResupplyEffect: 8a2740cfc6f64ca68410145a83027735
+
+

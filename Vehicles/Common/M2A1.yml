@@ -1,0 +1,23 @@
+VehicleAsset: aa3c6af4911243b5b5c9dc95ca1263bf
+Type: HMG
+Branch: Default
+Class: None
+TicketCost: 0
+RespawnTime: 0s
+Cooldown: 0s
+ShortName: M2A1
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 2
+  Items:
+    - 523c49ce4df44d46ba37be0dd6b4504b # .50 Cal Box
+    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 523c49ce4df44d46ba37be0dd6b4504b
+Abandon:
+  AllowAbandon: false

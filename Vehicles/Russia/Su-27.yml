@@ -1,0 +1,20 @@
+VehicleAsset: 3f6aba85ab45472cacfe0179e32bc2e6
+Type: Jet
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+ShortName: Su-27
+Crew:
+  Seats:
+    - 0
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 15
+  Items:
+    - 950a0c68a6c54726832d410973002eda # 6x Vympel R-27
+    - 950a0c68a6c54726832d410973002eda

@@ -1,0 +1,34 @@
+VehicleAsset: 6082d95b5fcb4805a7a2120e3e3c6f68
+Type: TransportHeli
+Branch: Airforce
+Class: Pilot
+TicketCost: 5
+RespawnTime: 5m
+Cooldown: 5m
+Crew:
+  Seats:
+    - 0
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 3
+  Items:
+    - 432530b4d42f4c8cbd351465eb5bdae5 # 7.62x51mm Box
+    - 432530b4d42f4c8cbd351465eb5bdae5
+    - 432530b4d42f4c8cbd351465eb5bdae5
+    - 432530b4d42f4c8cbd351465eb5bdae5
+Trunk:
+  - Item: a2eb76590cf74401aeb7ff4b4b79fd86
+    X: 5
+    Y: 0
+    Rotation: 0
+  - Item: de94da4a993e4ebdbfd56d6e73d0af78
+    X: 0
+    Y: 0
+    Rotation: 0
+  - Item: de94da4a993e4ebdbfd56d6e73d0af78
+    X: 0
+    Y: 4
+    Rotation: 0

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/DanielWillett/DevkitServer/tree/master/Module/Schemas/cartography_config_schema.json",
+  "title": "Cartography Config",
+  "description": "Defines overrides for color providers and compositors to use with cartography rendering.",
+  "type": "object",
+  "properties": {
+    "override_chart_color_provider": {
+      "description": "Override the chart color provider to use. Value should be a C# type name like 'BundledStripChartColorProvider' or 'JsonChartColorProvider'.",
+      "type": "string",
+      "anyOf": [
+        {
+          "description": "A chart color provider type. should be a C# type name like 'BundledStripChartColorProvider' or 'JsonChartColorProvider'.",
+          "type": "string",
+          "enum": [ "BundledStripChartColorProvider", "JsonChartColorProvider" ]
+        },
+        {
+          "description": "A chart color provider type. should be a C# type name like 'BundledStripChartColorProvider' or 'JsonChartColorProvider'.",
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "anyOf": [
+                {
+                  "description": "A chart color provider type. should be a C# type name like 'BundledStripChartColorProvider' or 'JsonChartColorProvider'.",
+                  "type": "string"
+                },
+                {
+                  "description": "A chart color provider type. should be a C# type name like 'BundledStripChartColorProvider' or 'JsonChartColorProvider'.",
+                  "type": "string",
+                  "enum": [ "BundledStripChartColorProvider", "JsonChartColorProvider" ]
+                }
+              ]
+            }
+          },
+          "required": [ "type" ]
+        }
+      ]
+    },
+    "time": {
+      "description": "The world time to set the game to before rendering. This is a standard time string separated by a colon.",
+      "type": "string",
+      "pattern": "(?:^\\s*(?:0*1{0,1}\\d|0*2[0123])(?:\\s*\\:\\s*0*[12345]{0,1}\\d){0,2}\\s*$)|(?:^\\s*0*[123456789](?:\\:0*[012345]{0,1}\\d){0,2}\\s*(?:[Aa][Mm]|[Pp][Mm])\\s*$)|(?:^\\s*1[012](?:\\:[012345]{0,1}\\d){0,2}\\s*(?:[Aa][Mm]|[Pp][Mm])\\s*$)|(?:^\\s*0*\\.\\d*\\s*$)"
+    },
+    "override_active_compositors": {
+      "description": "Provides an ordered list of compositors to apply. The fist elements will be applied on top of lower ones (they are applied in reverse). Values should be a C# type name like 'OverlayCartographyCompositor'. Some compositors may take additional config in which an object with a 'type' property can be used instead.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "description": "A compositor type. This should be a C# type name like 'OverlayCartographyCompositor'.",
+            "type": "string",
+            "enum": [ "OverlayCartographyCompositor" ]
+          },
+          {
+            "description": "A compositor type. This should be a C# type name like 'OverlayCartographyCompositor'.",
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "anyOf": [
+                  {
+                    "description": "A compositor type. This should be a C# type name like 'OverlayCartographyCompositor'.",
+                    "type": "string"
+                  },
+                  {
+                    "description": "A compositor type. This should be a C# type name like 'OverlayCartographyCompositor'.",
+                    "type": "string",
+                    "enum": [ "OverlayCartographyCompositor" ]
+                  }
+                ]
+              }
+            },
+            "required": [ "type" ]
+          }
+        ]
+      }
+    },
+    "chart_type_overrides": {
+      "description": "Override the chart type for specific objects or resources.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "enum": [ "GROUND", "IGNORE", "HIGHWAY", "ROAD", "STREET", "PATH", "LARGE", "MEDIUM", "WATER", "CLIFF" ]
+      }
+    }
+  }
+}

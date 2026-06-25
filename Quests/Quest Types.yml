@@ -1,0 +1,340 @@
+Quests:
+    # Kill enemies
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(10:150){10}" # k
+    Rewards:
+      - Type: XPReward
+        Expression: "Round(2.5*k)"
+      - Type: CreditsReward
+        Expression: "Ceil(0.5*k)"
+    Presets:
+      - Key: 2452e924-9feb-47c3-9bcc-5429618f424c
+        Flag: 60001
+        State:
+          Kills: 20
+      - Key: 5a9f831f-619d-46f1-8eb6-fc202d5d2c83
+        Flag: 60002
+        State:
+          Kills: 30
+      - Key: 3e3ffa93-d819-41df-b175-e7f0bd2316ce
+        Flag: 60005
+        State:
+          Kills: 40
+      - Key: ebf8632f-b952-4f2c-9a89-f8709ad530a8
+        Flag: 60008
+        State:
+          Kills: 50
+      - Key: 39a1fb42-f797-4190-a86c-147675ccd800
+        Flag: 60014
+        State:
+          Kills: 80
+      - Key: 55c7e483-79f4-4b72-9b16-cd0f24c10844
+        Flag: 60017
+        State:
+          Kills: 120
+      - Key: e2607e1f-2781-46fe-b53d-c13dd9921595
+        Flag: 60021
+        State:
+          Kills: 250
+
+    # Kill enemies in range
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies in Range
+    Text:
+      en-us: "Kill <b><color=#00ace6>{0}/{1}</color></b> enemies from more than <color=#999999>{2}m</color> away."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(10:35){5}"   # k
+      Range: "$(50:350){25}" # d
+    Rewards:
+      - Type: XPReward
+        Expression: "((d+50)/100)*4*k"
+      - Type: CreditsReward
+        Expression: "((d+50)/100)*k"
+
+    # Kill enemies with weapon
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies with Weapon
+    Text:
+      en-us: "Kill <b><color=#00ace6>{0}/{1}</color></b> enemies with the {3}."
+    Properties:
+      Kills: "$(10:35){5}" # k
+      Weapons: "$*"
+    Rewards:
+      - Type: XPReward
+        Expression: "((d+50)/100)*4*k"
+      - Type: CreditsReward
+        Expression: "((d+50)/100)*k"
+    Presets:
+      - Key: 97607e5c-65c9-48f9-ad49-6fa2c9862409
+        Flag: 61002
+        State:
+          Kills: 30
+          Weapons: "5ded5feb-fdfc-4e0a-9f0f-d1c98dac1ad0"
+      - Key: 2169bc7f-76ed-491c-9ce1-9650b1d09b6e
+        Flag: 61004
+        State:
+          Kills: 5
+          Weapons: "5ded5feb-fdfc-4e0a-9f0f-d1c98dac1ad0"
+
+    # Kill enemies with kit
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies with Kit
+    Text:
+      en-us: "Kill <b><color=#00ace6>{0}/{1}</color></b> enemies with the <color=#{5}>{4}</color> kit."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(10:30){5}" # k
+      Kit: "$*"
+    Rewards:
+      - Type: XPReward
+        Expression: "4*k"
+      - Type: CreditsReward
+        Expression: "k"
+
+    # Kill enemies with kit class
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies with Class
+    Text:
+      en-us: "Kill <b><color=#00ace6>{0}/{1}</color></b> enemies with a <color=#66ccff>{6}</color> kit."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(10:30){5}" # k
+      KitClass: "$[Squadleader,Rifleman,Medic,Breacher,AutomaticRifleman,Grenadier,MachineGunner,LAT,HAT,Marksman,Sniper,APRifleman,CombatEngineer,Crewman,Pilot]"
+    Rewards:
+      - Type: XPReward
+        Expression: "Round(3.5*k)"
+      - Type: CreditsReward
+        Expression: "k"
+    Presets:
+      - Key: cc5bcb0f-081b-4fe3-9f08-464a0b5f458f
+        Flag: 60012
+        State:
+          Kills: 25
+          KitClass: "Squadleader"
+      
+    # Kill enemies with kit branch
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies with Branch
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies while a member of the <color=#fcbda4>{7}</color> branch."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(30:75){5}" # k
+      KitBranch: "$(Infantry:Airforce)"
+    Rewards:
+      - Type: XPReward
+        Expression: "Round(2.75*k)"
+      - Type: CreditsReward
+        Expression: "k"
+
+    # Kill enemies from range with kit class
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies in Range with Class
+    Text:
+      en-us: "Kill <b><color=#00ace6>{0}/{1}</color></b> enemies from more than <color=#999999>{2}m</color> away with a <color=#66ccff>{6}</color> kit."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(10:30){5}" # k
+      Range: "$(50:350){25}" # d
+      KitClass: "$[Squadleader,Rifleman,AutomaticRifleman,Marksman,Sniper]"
+    Rewards:
+      - Type: XPReward
+        Expression: "((d+50)/100)*6*k"
+      - Type: CreditsReward
+        Expression: "((d+50)/100)*2*k"
+    Presets:
+      - Key: 23a4b0fe-4c57-4e45-99b2-d202d262a701
+        Flag: 61000
+        State:
+          Kills: 20
+          Range: 200
+          KitClass: "Marksman"
+      - Key: 744f3c65-0c0a-4d09-84d0-2fc3c748e0d8
+        Flag: 61001
+        State:
+          Kills: 15
+          Range: 100
+          KitClass: "Rifleman"
+
+    # Kill enemies from range with kit
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies in Range with Kit Class
+    Text:
+      en-us: "Kill <b><color=#00ace6>{0}/{1}</color></b> enemies from more than {2}m away with a <color=#{5}>{4}</color> kit."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(10:40){5}" # k
+      Range: "$(50:250){25}" # d
+      Kit: "$*"
+    Rewards:
+      - Type: XPReward
+        Expression: "((d+50)/100)*8*k"
+      - Type: CreditsReward
+        Expression: "((d+50)/100)*3*k"
+      
+    # Kill enemies while on turret
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies on Turret
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies out of a vehicle's turret."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(5:20){5}" # k
+      Turrets: "#*"
+    Rewards:
+      - Type: XPReward
+        Expression: "10*k"
+      - Type: CreditsReward
+        Expression: "8*k"
+      
+    # Kill enemies in squad
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies in Squad
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies while in a squad."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(15:40){5}" # k
+      RequireSquad: true
+    Rewards:
+      - Type: XPReward
+        Expression: "Round(2.75*k)"
+      - Type: CreditsReward
+        Expression: "k"
+      
+    # Kill enemies in full squad
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies in Full Squad
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies while in a full squad."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(15:40){5}" # k
+      RequireFullSquad: true
+    Rewards:
+      - Type: XPReward
+        Expression: "Round(2.75*k)"
+      - Type: CreditsReward
+        Expression: "k"
+    Presets:
+      - Key: d28248e6-3b1c-437b-82eb-bfd1784542d1
+        Flag: 60024
+        State:
+          Kills: 50
+          RequireFullSquad: true
+      
+    # Kill enemies while defending point
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies while Defending Objective
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies while defending the objective."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(15:30){5}" # k
+      RequireDefense: true
+      RequireObjective: true
+    Rewards:
+      - Type: XPReward
+        Expression: "6*k"
+      - Type: CreditsReward
+        Expression: "3*k"
+      
+    # Kill enemies while attacking point
+  - Type: Uncreated.Warfare.Quests.Templates.KillEnemies
+    Name: Kill Enemies while Attacking Objective
+    Text:
+      en-us: "Kill <b><color=#808080>{0}/{1}</color></b> enemies while attacking the objective."
+    CanBeDailyQuest: true
+    Properties:
+      Kills: "$(15:30){5}" # k
+      RequireAttack: true
+      RequireObjective: true
+    Rewards:
+      - Type: XPReward
+        Expression: "Round(6.5*k)"
+      - Type: CreditsReward
+        Expression: "Floor(3.5*k)"
+
+    # King slayer
+  - Type: Uncreated.Warfare.Quests.Templates.KingSlayer
+    Name: King Slayer
+    Text:
+      en-us: "Kill the top player <b><color=#33ccff>{0}/{1}</color></b> times. <color=#333333>/quest</color>"
+    Properties:
+      Kills: "$[3,4,5]" # k
+    Rewards:
+      - Type: XPReward
+        Expression: "20*k"
+      - Type: CreditsReward
+        Expression: "10*k"
+    Presets:
+      - Key: edf07ac7-6e04-4167-9cb5-f3240d1e0ab8
+        Flag: 60023
+        State:
+          Kills: 5
+
+    # Kill streak
+  - Type: Uncreated.Warfare.Quests.Templates.KillStreak
+    Name: Kill Streak
+    Text:
+      en-us: "Get <b><color=#808080>{0}/{1}</color></b> <color=#ff704d>{2}</color>-kill streaks without dying."
+    CanBeDailyQuest: true
+    Properties:
+      StreakCount: "$(4:8)"   # strNum
+      StreakLength: "$(3:5)" # strLen
+    Rewards:
+      - Type: XPReward
+        Expression: "strNum*(strLen^2)"
+      - Type: CreditsReward
+        Expression: "Ceil(0.4*strNum*(strLen^2))"
+      
+    # Shovel buildables
+  - Type: Uncreated.Warfare.Quests.Templates.ShovelBuildables
+    Name: Shovel Any Buildables
+    Text:
+      en-us: "Help shovel <b><color=#33ccff>{0}/{1}</color></b> buildables."
+    CanBeDailyQuest: true
+    Properties:
+      Amount: "$(5:15){5}" # a
+    Rewards:
+      - Type: XPReward
+        Expression: "5*a"
+      - Type: CreditsReward
+        Expression: "2*a"
+
+    # Shovel buildables
+  - Type: Uncreated.Warfare.Quests.Templates.ShovelBuildables
+    Name: Shovel Specific Buildables
+    Text:
+      en-us: "Help shovel <b><color=#33ccff>{0}/{1}</color></b> <color=#999999>{2}</color>buildables."
+    CanBeDailyQuest: false
+    Properties:
+      Amount: "$(5:15){5}" # a
+    Rewards:
+      - Type: XPReward
+        Expression: "5*a"
+      - Type: CreditsReward
+        Expression: "2*a"
+    Presets:
+      - Key: 72c64d0a-0c2d-4e5e-807f-ec83c84e242c
+        Flag: 60007
+        State:
+          Amount: 5
+          Buildable: "Fob"
+      - Key: d5df8cb1-1b88-471f-9db5-1fbce36cad1f
+        Flag: 60010
+        State:
+          Amount: 7
+          Buildable: "#[Fob,RepairStation,AmmoCrate]"
+      - Key: b5fc53f9-6184-4233-b683-cd141d14d892
+        Flag: 60018
+        State:
+          Amount: 10
+          Buildable: "#[Fob,RepairStation,AmmoCrate]"
+    

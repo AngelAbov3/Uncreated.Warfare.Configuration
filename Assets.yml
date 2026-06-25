@@ -1,0 +1,168 @@
+UI:                                                            # __Unity Names__
+  GiveUp: 27b84636ed8d4c0fb557a67d89254b00                     # ReviveHUD
+  FobHUD: 1de3174f5cc449a48e4f6347897623e7                     # FobHUD
+  FobResources: 3775a1e7d84b47e79cacecd5e6b2a224               # SuppliesHUD
+  ActionMenu: bf4bc4e1a6a849c29e9f7a6de3a943e4                 # ActionMenu
+  VehicleHud: 1e1762d6f01442e89d159d4cd0ae7587                 # VehicleHUD
+  ModerationMenu: 80aee6c3f43f4c7facb2f2ffbb545d20             # ModerationHUD
+  CaptureHUD: 0c6fb297197243b38aa47b9c9c1e1d8c                 # CaptureHUD
+  FlagHUD: af58e2ad05ef4bb4ac177dd40a084946                    # FlagHUD
+  DualSidedLeaderboardUI: 30f6029be72249de94c17a4d06a7cd49     # DualSidedLeaderboardUI
+  Header: c14fe9ffee6d4f8dbe7f57885f678edd                     # StagingPhaseCountdown
+  MutedUI: c5e31c7357134be09732c1930e0e4ff0                    # MutedUI
+  DutyUI: b7a198c054004526a331b90ec97c6d1a                     # DutyUI
+  Credits: 3195b96457d04b9e80699777d2809b4c                    # CreditsHUD
+  PlayerSquadHUD: b3ec66182ab04def9ea3a1ac11b5270a             # PlayerSquadHUD
+  SquadMenuHUD: 88ab3ea884b74821a9e5f39d8e45078e               # SquadMenuHUD
+  KitMenu: c0155ea486d8427d9c70541abc875e78                    # KitMenuHUD
+  TeamSelector: b5924bc83eb24d7298a47f933d3f16d9               # TeamSelectorHUD
+  Tickets: aba88eedb84448e8a30bb803a53a7236                    # TicketCount
+  Buffs: f298af0b4d34405b98a539b8d2ff0505                      # Buffs
+  LobbyHud: 073f94ef9f3042a78113f1e7bf62dac7                   # LobbyHUD
+  Points: 3f9304cab99248b5bb94bb5ac77b7a10                     # PointsHUD
+  Options: a101c594bd5349ca9b886036c86aca75                    # OptionsUI
+  SeedingVoteHUD: afdf11b38722485c9f4e9847c583f013             # SeedingVoteHUD
+  SeedingPlayHUD: c20a452954cf4fb8a9dc9cbf18332c06             # SeedingPlayHUD
+  KitSelectionUI: 09c4d106c52c4c9d8c28b446acc7cfe3             # KitSelectionUI
+  KitSelectionUI_Frame: 2783d6f59b91414f9f5ee51b1da960ab       # KitSelectionUI_Frame
+  Toasts:
+    GameOver: 1f3ce50c120042c390f5c42522bd0fcd                 # GameOverToast
+    Large: 9de82ffea13946b391090eb918bf3991                    # LargeToast
+    Medium: 5f695955f0da4d19adacac39140da797                   # MediumToast
+    Mini: a213915d61ad41cebab34fb12fe6870c                     # MiniToast
+    Progress: a113a0f2d0af4db8b5e5bcbc17fc96c9                 # ProgressToast
+    Tip: abbf74e86f1c4665925884c70b9433ba                      # TipToast
+    Popup: bc6bbe8ce1d2464bb828d01ba1c5d461                    # Popup
+    Alert: 4f8a6ca089a7499793c6076da9807273                    # WarningToast
+  DialogueBox: 0add13c6f5c34e7683b9908e8f1caac3                # DialogueBox
+Effects:
+  Medic: 0d846b64766041f6b9f1a08df88a9268                      # FriendlyMedic
+  Injured: 5edcd9bb87e240428902c04e1ba04e97                    # FriendlyInjured
+  Resupply: 4bfd3e5fcb3e4d109d3ec5ecca87d603                   # IconAmmo
+  ShovelHit: f894dff1d7ef453887182accd14dc9f9
+  CountermeasuresDeploy: 94a36b73c14a468b86141ed0793ab34c      # Countermeasures_Deploy
+  UnlockVehicleSound: bc41e0feaebe4e788a3612811b8722d3         # Firemode
+  Fobs:
+    Ammo: 827b0c00724b466d8d33633fe2a7743a                     # IconAmmo
+    Shovel: 35ab4b71bfb74755b318ce62935f58c9                   # IconBuildable
+    Bunker: d7452e8671c14e93a5e9d69e077d999c                   # IconBunker
+    CacheAttack: 26b60044bc1442eb9d0521bfea306517              # IconCacheAttack
+    CacheDefend: 06efa2c2f9ec413aa417c717a7be3364              # IconCacheDefend
+    Radio: bc6f0e7d5d9340f39ca4968bc3f7a132                    # IconRadio
+    RadioDamaged: 37d5c48597ea4b61a7a87ed85a4c9b39             # IconRadioDamaged
+    Repair: bcfda6fb871f42cd88597c8ac5f7c424                   # IconRepair
+    Build: e02cf21f89fa4755b045818da7727781                    # IconBuild
+  Projectiles:
+    LaserGuidedSilent: 64c3a204acd441679b9322be04016cbf        # Tracer_LaserGuided
+    LaserGuidedSound: 12209d06336142f8a0c4e49999759189         # Tracer_LaserGuided_Sound
+    GuidedMissileSilent: 5e7e9379872a40059cdc7e6d189d10dd      # Tracer_TOW
+    GuidedMissileSound: 7b458028c9de4a449c30ed5fc201bd37       # Tracer_TOW_Sound
+    HeatSeekingSilent: 39abdc11cd68477fa3c9b44aaf299760        # Tracer_AA
+    HeatSeekingSound: 5552f714ca744ab7bd0687fba0d541d3         # Tracer_AA_Sound
+    GroundAALock: 45d4cf4e11664402b8cce2808a7b8d91             # LockOn_Heatseeker_1
+    AirAALock: 022fb707288a4e3cb6847fdd242e4092                # LockOn_Heatseeker_2
+  Spotted:
+    AA: 0e90e68eff624456b76fee28a4875d14                       # SpottedAA
+    APC: 31d1404b7b3a465b8631308cdb48e3b2                      # SpottedAPC
+    ATGM: b20a7d914f92492fb1588f7baac80239                     # SpottedATGM
+    AttackHeli: 3f2c6776ba484f8ea443719161ec6ce5               # SpottedAttackHeli
+    FOB: 39dce42142074b46b819feba9ce83353                      # SpottedFOB
+    HMG: 2315e6ed970542499fec1b06df87ffd2                      # SpottedHMG
+    Humvee: 99a84b82f9bd433891fdb99e80394bf3                   # SpottedHumvee
+    IFV: f2c29856b4f64146afd9872ab528c242                      # SpottedIFV
+    Infantry: 79add0f1b07c478f87207d30fe5a5f4f                 # SpottedInfantry
+    Jet: 08f2cc6ed558459ea2caf3477b40df64                      # SpottedJet
+    MBT: 983c6510c13042bf983e81f49cffca39                      # SpottedMBT
+    Mortar: c377810f849c4c7d84391b491406918b                   # SpottedMortar
+    ScoutCar: b0937aff90b94a588b70bc96ece49f53                 # SpottedScoutCar
+    TransportHeli: 91b9f175b84849268d861eb0f0567788            # SpottedTransportHeli
+    Truck: fa226268e87b4ec89664eca5b22b4d3d                    # Truck
+  RepairStation:
+    RepairSound: 84347b13028340b8976033c08675d458
+    RefuelSound: 1d4fa25996114b7b89b061021fcc688f
+
+Buildables:
+  MapTacks:
+    Fob: c0d87f64953f4195b90100b3b06f1df3
+    FobProxied: ed03e234910e470cb81135a7c8ca7ec7
+    FobUnbuilt: e3fca969c5ca4f6f9bdf10ddf6e8d2fc
+    TemporarySpawnPoint: 2bb28c62054944409c8cc79ee4805313
+    NeutralFlag: 607c3f42e26940a8a83e41f7a75e2f09
+    MainBase: d7c3c3f475204258b87aeb1927f7badb
+    EnemyMainBase: 79162d7e57474134bed6d1e9feb03c37
+    Cache: 299baac52d0040d4a5e285f141d50f83
+    CacheProxied: 85994e86f16041a480380d0b1ee206c7
+    CacheStatic: 4e85d9b310084c6da3c3eacf2c0db2ed
+    VCP: f2346118d88f4799b5b7e52c54392990
+    Rallypoints:
+      1: 2bb28c62054944409c8cc79ee4805313
+      2: 16271e4ecc4d43f29c9a6aa49044f012
+      3: dd5327285b264fd1a628ac0422d70232
+      4: 8d17afae0e844ceab3d2b57694924fa0
+      5: ca80b107bb1e4e0894f896ea048503fb
+      6: af71a4b4e5f34c688a63bdaa11051729
+      7: ae8272d56634435fb87a2bf5f2e152d3
+      8: f8f363ba24ea4d1ca55d978ebbf6e4b9
+  Gameplay:
+    RepairStation: c0d11e0666694ddea667377b4c0580be
+    Fob: 61c349f10000498fa2b92c029d38e523
+    FobUnbuilt: 1bb17277dd8148df9f4c53d1a19b2503
+    InsurgencyCache: 39051f33f24449b4b3417d0d666a4f27
+    VehicleSpawner: c076f9e9f35f42a4b8b5711dfb230010
+    VehicleSpawnerSign: 5251c3bcaabb4a15b9e631e19c037ec1
+Items:
+  EntrenchingTool: 6cee2662e8884d7bad3a5d743f8222da
+  AprilFoolsBarrel: c3d3123823334847a9fd294e5d764889
+  LaserDesignator: 3879d9014aca4a17b3ed749cf7a9283e
+  AmmoBag: 16f55b999e9b4f158be12645e41dd753
+  AircraftWhitelistedGuns: []
+Projectiles:
+  GuidedMissiles:
+    - f8978efc872e415bb41086fdee10d7ad # TOW
+    - d900a6de5bb344f887855ce351e3bb41 # Kornet
+    - 70e099314d1946fd84b3d35e2e5453c8 # HJ-8
+    - 9ed685df6df34527b104ab227465489d # Bradley ATGM
+    - d6312ceb00ad4530bdb07735bc02f070 # BMP-2 ATGM
+    - e88e40a0ba494177ba452f276e2b01ce # Type 86G ATGM
+    - 0c12296d4e954fe0a4a82809b6ac597d # Puma ATGM
+  GroundAAMissiles:
+    - 58b18a3fa1104ca58a7bdebef3ab6b29 # Stinger
+    - 5ae39e59d299415d8c4d08b233206302 # Igla
+  AirAAMissiles:
+    - 661a347f5e56406e85510a1b427bc4d6 # F-15 / Tornado / FA-18
+    - ad70852b3d31401b9001a13d64a13f78 # Su-34
+    - d9447148f8aa41f0ad885edd24ac5a02 # J-10
+    - 0a58fa7fdad2470c97af71e03059f181 # Eurofighter
+    - 0b21724b3a1f40e7b88de9484a1733bc # JH-7
+    - 46c70127ef7d4c95a888c4908f800e46 # CF-18
+    - 8b7d1829e691486da212343aba6bcf2d # Su-27
+  LaserGuidedMissiles:
+    - 433ea5249699420eb7adb67791a98134 # F-15 Maverick
+    - 3754ca2527ee40e2ad0951c8930efb07 # Su-34 Kh-29
+  AdvancedDamage:
+    FullDamageOnIndirectHitWeapons:
+      - 433ea5249699420eb7adb67791a98134 # F-15 Maverick
+      - e3f296f798b64a6c98009fb071cb45f8 # F-15 Bombs
+      - 3754ca2527ee40e2ad0951c8930efb07 # Su-34 Kh-29
+      - 8b61f77fa7194baaba65d1ec0a5c0e87 # Su-34 Bombs
+    GroundAttackOnlyWeapons:
+      - 433ea5249699420eb7adb67791a98134 # F-15 Maverick
+      - 3754ca2527ee40e2ad0951c8930efb07 # Su-34 Kh-29
+    AntiAirOnlyWeapons:
+      - 58b18a3fa1104ca58a7bdebef3ab6b29 # Stinger
+      - 5ae39e59d299415d8c4d08b233206302 # Igla
+      - 661a347f5e56406e85510a1b427bc4d6 # F-15 / Tornado / FA-18
+      - ad70852b3d31401b9001a13d64a13f78 # Su-34
+      - d9447148f8aa41f0ad885edd24ac5a02 # J-10
+      - 0a58fa7fdad2470c97af71e03059f181 # Eurofighter
+      - 0b21724b3a1f40e7b88de9484a1733bc # JH-7
+      - 46c70127ef7d4c95a888c4908f800e46 # CF-18
+      - 8b7d1829e691486da212343aba6bcf2d # Su-27
+
+Vehicles:
+  Countermeasure: 16dbd4e5928e498783675529ca53fc61
+
+Objects:
+  TeleportToMainDoors:
+    - 0386807338804f2ba86ab32fb675219b
+  TeleportToMainDoorFlag: 56300
