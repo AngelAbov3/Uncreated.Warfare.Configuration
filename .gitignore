@@ -1,4 +1,4 @@
-# System Config.yml
+System Config.yml
 Quests/*
 !Quests/Quest Types.yml
 Plugins/**
