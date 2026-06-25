@@ -1,7 +1,7 @@
 # License - Uncreated Warfare Project - 2.0
 Copyright (c) 2024 Daniel Willett and Ben Valkin
 
-This license applies to the Uncreated.Warfare module (this repository), all official Uncreated.Warfare plugins (which are kept private), all workshop content relating to Uncreated Network (including maps), and any other pieces of software by UncreatedStaff that do not have their own license. All of these will be referred to as 'the project' or 'the code'.
+This license applies to the Uncreated.Warfare module, all official Uncreated.Warfare plugins (which are kept private), all workshop content relating to Uncreated Network (including maps), and any other pieces of software by UncreatedStaff that do not have their own license. All of these will be referred to as 'the project' or 'the code'.
 
 All parts of the project and the project as a whole is intellectual property of Daniel Willett and Ben Valkin of Uncreated Network ('the authors').
 
