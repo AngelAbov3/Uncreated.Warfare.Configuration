@@ -23,8 +23,8 @@ Components:
   - Type: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmService, Uncreated.Warfare.FreeTDM"
     AllowReenterSpwan: true
     Kits:
-      caf: [ cafrif1, cafmed1, cafbre1, cafar1 ]
-      ru: [ rurif1, rumed1, rubre1, ruar1 ]
+      caf: [ cafsni1, cafmar1 ]
+      ru: [ rusni1, rumar1 ]
 
 Phases:
   - Type: ActionPhase
