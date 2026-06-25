@@ -20,7 +20,7 @@ Teams:
 
 Components:
   - Type: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmService, Uncreated.Warfare.FreeTDM"
-    AllowReenterSpwan: true
+    AllowReenterSpawn: true
     Kits:
       caf: [ cafrif1, cafmed1, cafbre1, cafar1 ]
       ru: [ rurif1, rumed1, rubre1, ruar1 ]

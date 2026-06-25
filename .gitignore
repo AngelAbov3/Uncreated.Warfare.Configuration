@@ -2,7 +2,6 @@ System Config.yml
 Quests/*
 !Quests/Quest Types.yml
 Plugins/**
-Maps/*/BarricadeStateSaves.yml
 Layouts/AAS
 Layouts/FlagVariations
 Layouts/Insurgency

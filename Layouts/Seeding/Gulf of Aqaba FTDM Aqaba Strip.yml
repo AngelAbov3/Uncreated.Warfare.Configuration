@@ -21,7 +21,7 @@ Teams:
 
 Components:
   - Type: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmService, Uncreated.Warfare.FreeTDM"
-    AllowReenterSpwan: true
+    AllowReenterSpawn: true
     Kits:
       usa: [ usmar1, ussni1 ]
       mec: [ memar1, mesni1 ]
