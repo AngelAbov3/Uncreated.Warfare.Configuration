@@ -2,7 +2,7 @@ Deploy:
   Duration: 30s
 
 Change Teams:
-  Duration: 30m
+  Duration: 15m
 
 Report:
   Duration: 1hr
