@@ -1,0 +1,1107 @@
+Unarmed:
+  - Clothing: Shirt
+    Redirect: Shirt
+    Variant: "jacket"
+  - Clothing: Pants
+    Redirect: Pants
+    Variant: "pants"
+  - Clothing: Vest
+    Redirect: Vest
+    Variant: "tact_rig"
+  - Clothing: Hat
+    Redirect: Hat
+    Variant: "base"
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+    Variant: "ruggedpack"
+  - Clothing: Glasses
+    Redirect: Glasses
+    # used if redirects dont exist
+  - Clothing: Mask
+    Item: 2ecf1b15a59f4125a2d55c88479529c2 # Earpiece
+  - Clothing: Shirt
+    Item: c3adf16156004b40a839ed1b80583c32 # Jacket
+  - Clothing: Pants
+    Item: 67a6ec52e4b24ffd89f75ceee0eb5179 # Jeans
+  - X: 0
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 1
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 2
+    Y: 0
+    Page: Hands
+    Item: c83390665c6546b8befbf6f15ef202c4 # Bottled Soda
+  - X: 2
+    Y: 1
+    Page: Hands
+    Item: f81d68ebb2a8490dbe1545d432b9c099 # Bottled Water
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+
+Squadleader:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Redirect: LaserDesignator
+  - X: 6
+    Y: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Backpack
+    Redirect: Radio
+  - X: 3
+    Y: 2
+    Page: Backpack
+    Redirect: Radio
+  - X: 0
+    Y: 0
+    Rotation: 1
+    Page: Shirt
+    Redirect: RallyPoint
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 5
+    Y: 0
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 2
+    Y: 0
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 3
+    Y: 0
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 2
+    Y: 1
+    Page: Backpack
+    Item: c9fadfc1008e477ebb9aeaaf0ad9afb9 # Red Smoke
+  - X: 3
+    Y: 1
+    Page: Backpack
+    Item: c9fadfc1008e477ebb9aeaaf0ad9afb9 # Red Smoke
+  - X: 4
+    Y: 1
+    Page: Backpack
+    Item: 18713c6d9b8f4980bdee830ca9d667ef # Yellow Smoke
+
+Rifleman:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 2
+    Y: 0
+    Page: Backpack
+    Redirect: AmmoBag
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 1
+    Y: 0
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 1
+    Y: 1
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 5
+    Y: 1
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 4
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+
+Medic:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+    Variant: "medic"
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 3
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 0
+    Page: Backpack
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 0
+    Page: Backpack
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 0
+    Page: Backpack
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 0
+    Y: 1
+    Page: Backpack
+    Item: 5e1d521ecb7f4075aaebd344e838c2ca # Bloodbag
+  - X: 1
+    Y: 1
+    Page: Backpack
+    Item: 5e1d521ecb7f4075aaebd344e838c2ca # Bloodbag
+  - X: 2
+    Y: 1
+    Page: Backpack
+    Item: 5e1d521ecb7f4075aaebd344e838c2ca # Bloodbag
+  - X: 3
+    Y: 1
+    Page: Backpack
+    Item: 5e1d521ecb7f4075aaebd344e838c2ca # Bloodbag
+  - X: 4
+    Y: 0
+    Page: Backpack
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 5
+    Y: 0
+    Page: Backpack
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 6
+    Y: 0
+    Page: Backpack
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 1
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 5
+    Y: 1
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 4
+    Y: 2
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 6
+    Y: 2
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+    
+Breacher:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 3
+    Y: 0
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Item: 6089c30d75b247259673d9cdaa513cbb # 12ga 00 Buckshot
+  - X: 0
+    Y: 1
+    Page: Backpack
+    Item: 6089c30d75b247259673d9cdaa513cbb # 12ga 00 Buckshot
+  - X: 1
+    Y: 1
+    Page: Backpack
+    Item: 6089c30d75b247259673d9cdaa513cbb # 12ga 00 Buckshot
+  - X: 1
+    Y: 0
+    Page: Backpack
+    Item: 6089c30d75b247259673d9cdaa513cbb # 12ga 00 Buckshot
+  - X: 2
+    Y: 1
+    Page: Backpack
+    Item: d053c04af59b4985b463d160a92af331 # 12ga Rifled Slugs
+  - X: 2
+    Y: 0
+    Page: Backpack
+    Item: d053c04af59b4985b463d160a92af331 # 12ga Rifled Slugs
+  - X: 0
+    Y: 2
+    Page: Backpack
+    Item: 85bcbd5ee63d49c19c3c86b4e0d115d6 # C-4 4-Pack Charge
+  - X: 1
+    Y: 2
+    Page: Backpack
+    Item: 85bcbd5ee63d49c19c3c86b4e0d115d6 # C-4 4-Pack Charge
+  - X: 2
+    Y: 2
+    Page: Backpack
+    Item: 618d0402c0724f1582fffd69f4cc0868 # Detonator
+  - X: 3
+    Y: 2
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 4
+    Y: 2
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 5
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 0
+    Y: 4
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+    
+AutomaticRifleman:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 3
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 0
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 0
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 0
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 0
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 3
+    Y: 1
+    Rotation: 1
+    Page: Hands
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 1
+    Y: 1
+    Page: Hands
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 2
+    Y: 1
+    Page: Hands
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 0
+    Y: 1
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+     
+Grenadier:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 3
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+    
+MachineGunner:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 0
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 0
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 0
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 0
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 1
+    Y: 1
+    Page: Hands
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 0
+    Y: 1
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 1
+    Y: 2
+    Rotation: 1
+    Page: Hands
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+    
+LAT:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+    
+HAT:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 4
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 5
+    Y: 1
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 0
+    Y: 3
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+    
+Marksman:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 0
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 4
+    Y: 0
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 6
+    Y: 0
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+    
+Sniper:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+    # no backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 1
+    Y: 0
+    Page: Vest
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: c9fadfc1008e477ebb9aeaaf0ad9afb9 # Red Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 1344161ee08e4297b64b4dc068c5935e # Violet Smoke
+  - X: 1
+    Y: 1
+    Page: Hands
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 0
+    Y: 0
+    Page: Vest
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 2
+    Page: Vest
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 3
+    Y: 0
+    Page: Vest
+    Item: 010de9d7d1fd49d897dc41249a22d436 # Laser Rangefinder
+     
+APRifleman:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 0
+    Y: 3
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: c9fadfc1008e477ebb9aeaaf0ad9afb9 # Red Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 18713c6d9b8f4980bdee830ca9d667ef # Yellow Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Item: 618d0402c0724f1582fffd69f4cc0868 # Detonator
+  - X: 1
+    Y: 0
+    Page: Backpack
+    Item: 6d5980d658c9449c941928bcc738f210 # Remote-Detonated Claymore
+  - X: 1
+    Y: 1
+    Page: Backpack
+    Item: 6d5980d658c9449c941928bcc738f210 # Remote-Detonated Claymore
+  - X: 1
+    Y: 2
+    Page: Backpack
+    Item: 6d5980d658c9449c941928bcc738f210 # Remote-Detonated Claymore
+  - X: 3
+    Y: 0
+    Page: Backpack
+    Item: 830ba3616d434914b682007b7f309d68 # Tripwire Claymore
+  - X: 3
+    Y: 1
+    Page: Backpack
+    Item: 830ba3616d434914b682007b7f309d68 # Tripwire Claymore
+  - X: 3
+    Y: 2
+    Page: Backpack
+    Item: 830ba3616d434914b682007b7f309d68 # Tripwire Claymore
+  - X: 5
+    Y: 0
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 4
+    Y: 3
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 5
+    Y: 1
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 6
+    Y: 1
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+    
+CombatEngineer:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Redirect: Glasses
+  - X: 2
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Item: 92df865d6d534bc1b20b7885fddb8af3 # Anti-Tank Mine
+  - X: 2
+    Y: 0
+    Page: Backpack
+    Item: 92df865d6d534bc1b20b7885fddb8af3 # Anti-Tank Mine
+  - X: 4
+    Y: 0
+    Page: Backpack
+    Item: 92df865d6d534bc1b20b7885fddb8af3 # Anti-Tank Mine
+  - X: 6
+    Y: 0
+    Page: Backpack
+    Item: 92df865d6d534bc1b20b7885fddb8af3 # Anti-Tank Mine
+  - X: 0
+    Y: 3
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 1
+    Y: 3
+    Page: Backpack
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 0
+    Y: 4
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 2
+    Y: 4
+    Rotation: 1
+    Page: Backpack
+    Item: ffcf0144431542a0b41c0b5202ce9d17 # Combat Knife
+  - X: 6
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Item: a2a8a01a58454816a6c9a047df0558ad # Razorwire
+  - X: 7
+    Y: 2
+    Rotation: 1
+    Page: Backpack
+    Item: a2a8a01a58454816a6c9a047df0558ad # Razorwire
+  - X: 0
+    Y: 0
+    Page: Shirt
+    Item: 15f674dcaf3f44e19a124c8bf7e19ca2 # Sandbag Line
+  - X: 0
+    Y: 1
+    Page: Shirt
+    Item: 15f674dcaf3f44e19a124c8bf7e19ca2 # Sandbag Line
+  - X: 3
+    Y: 0
+    Page: Shirt
+    Item: a9294335d8e84b76b1cbcb7d70f66aaa # Sandbag Pillbox
+  - X: 3
+    Y: 1
+    Page: Shirt
+    Item: a9294335d8e84b76b1cbcb7d70f66aaa # Sandbag Pillbox
+    
+Crewman:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Item: 3ee3c7292ce340489b9afacda209e138 # Crewman Helmet
+  - Clothing: Mask
+    Redirect: Mask
+    # backpack removed
+    # glasses removed
+  - X: 2
+    Y: 0
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 3
+    Y: 0
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 4
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 2
+    Y: 1
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 0
+    Y: 0
+    Page: Vest
+    Item: d5b9f19e2f2a4ee2ab4dc666f32f7df3 # Portable Gas Can
+  - X: 2
+    Y: 0
+    Page: Vest
+    Item: 1f80a9e0c86047d38b72e08e267885f6 # Carjack
+    
+Pilot:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+    # vest removed
+  - Clothing: Hat
+    Item: 78656047d47a4ff1ad7aa8a2e4d070a0 # Pilot Helmet
+  - Clothing: Mask
+    Redirect: Mask
+    # backpack removed
+    # glasses removed
+  - X: 2
+    Y: 0
+    Page: Hands
+    Item: c9fadfc1008e477ebb9aeaaf0ad9afb9 # Red Smoke
+  - X: 3
+    Y: 0
+    Page: Hands
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 1
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 1
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 1
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 0
+    Y: 0
+    Page: Shirt
+    Item: d5b9f19e2f2a4ee2ab4dc666f32f7df3 # Portable Gas Can
+  - X: 2
+    Y: 0
+    Page: Shirt
+    Item: 1f80a9e0c86047d38b72e08e267885f6 # Carjack
+    
+SpecOps:
+  - Clothing: Shirt
+    Redirect: Shirt
+  - Clothing: Pants
+    Redirect: Pants
+  - Clothing: Vest
+    Redirect: Vest
+  - Clothing: Hat
+    Redirect: Hat
+  - Clothing: Mask
+    Redirect: Mask
+  - Clothing: Backpack
+    Redirect: Backpack
+  - Clothing: Glasses
+    Item: cca8301927e049149fcee2b157a59da1 # Military Nightvision
+    State: AA==
+  - X: 4
+    Y: 0
+    Rotation: 1
+    Page: Backpack
+    Redirect: EntrenchingTool
+  - X: 0
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 1
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 2
+    Y: 2
+    Page: Hands
+    Item: ae46254cfa3b437e9d74a5963e161da4 # Dressing
+  - X: 3
+    Y: 2
+    Page: Hands
+    Item: b01e414db03747509e87ebc515744216 # Frag Grenade
+  - X: 4
+    Y: 2
+    Page: Hands
+    Item: 7bf622df8cfe4d8c8b740fae3e95b957 # White Smoke
+  - X: 0
+    Y: 0
+    Page: Backpack
+    Item: acf7e825832f4499bb3b7cbec4f634ca # MRE
+  - X: 0
+    Y: 2
+    Page: Backpack
+    Item: 618d0402c0724f1582fffd69f4cc0868 # Detonator
+  - X: 1
+    Y: 2
+    Page: Backpack
+    Item: 85bcbd5ee63d49c19c3c86b4e0d115d6 # C-4 4-Pack Charge
+  - X: 5
+    Y: 2
+    Page: Backpack
+    Item: f260c581cf504098956f424d62345982 # Binoculars

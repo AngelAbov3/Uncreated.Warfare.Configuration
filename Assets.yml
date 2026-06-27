@@ -80,7 +80,6 @@ Effects:
   RepairStation:
     RepairSound: 84347b13028340b8976033c08675d458
     RefuelSound: 1d4fa25996114b7b89b061021fcc688f
-
 Buildables:
   MapTacks:
     Fob: c0d87f64953f4195b90100b3b06f1df3

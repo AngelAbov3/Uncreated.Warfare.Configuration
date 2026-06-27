@@ -13,11 +13,11 @@
                 "warfare::commands.permission",
                 "warfare::commands.abandon",
                 "warfare::commands.ammo",
-                "warfare::commands.link",
                 "warfare::commands.build",
                 "warfare::commands.buy",
                 "warfare::commands.confirm",
                 "warfare::commands.deny",
+                "warfare::commands.link",
                 "warfare::commands.deploy",
                 "warfare::commands.discord",
                 "warfare::commands.group",
@@ -37,6 +37,7 @@
                 "warfare::commands.kits",
                 "warfare::commands.kit.hotkey.*",
                 "warfare::commands.kit.layout.*",
+                "warfare::commands.squads",
                 "warfare::commands.kit.favorite.*",
                 "warfare::commands.kit.unfavorite.*",
                 "warfare::commands.kit.rename.*",
@@ -59,7 +60,8 @@
             "permissions":
             [
                 "warfare::commands.duty",
-                "warfare::commands.warfaredev.squads.menu"
+                "warfare::commands.warfaredev.squads.menu",
+                "warfare::commands.nerd"
             ]
         },
         {
@@ -83,18 +85,21 @@
                 "warfare::commands.structure.*",
                 "warfare::commands.give",
                 "warfare::commands.vehicle.*",
-                "warfare::commands.vehiclebay.force",
+                "warfare::commands.vehiclebay.respawn",
+                "warfare::commands.vehiclebay.check",
                 "warfare::commands.teleport",
                 "warfare::commands.vanish",
+                "warfare::features.vanish",
+                "warfare::commands.nerd",
                 "warfare::features.god",
                 "warfare::commands.zone.go",
                 "warfare::commands.group.*",
+                "unturned::features.workzone",
                 "unturned::commands.spy",
                 "warfare::actions.barricades.edit_sign",
                 "warfare::actions.items.pickup_any",
                 "warfare::actions.buildables.destroy_any",
                 "warfare::actions.buildables.place_any",
-                "warfare::commands.warfaredev.quickcap",
                 "warfare::features.swap_clothing"
             ]
         },
@@ -115,7 +120,10 @@
             "priority": 2,
             "permissions":
             [
-
+                "warfare::commands.kit.*",
+                "warfare::commands.clear.*",
+                "warfare::commands.heal",
+                "unturned::features.freecam"
             ]
         },
         {
@@ -135,24 +143,23 @@
             "priority": 3,
             "permissions":
             [
-                "warfare::commands.clear.*",
                 "warfare::commands.ipwhitelist",
                 "warfare::commands.jump",
                 "warfare::commands.speed",
                 "warfare::commands.trait.*",
-                "warfare::commands.heal",
                 "warfare::commands.vehiclebay.*",
                 "warfare::commands.whitelist.*",
                 "warfare::commands.zone.*",
                 "warfare::commands.kit.*",
                 "warfare::commands.test.*",
+                "warfare::commands.shutdown.*",
+                "warfare::commands.warfaredev.buildables.*",
+                "warfare::commands.warfaredev.quickwin.*",
+                "warfare::commands.warfaredev.layout.*",
                 "unturned::commands.day",
                 "unturned::commands.night",
                 "unturned::commands.kill",
                 "unturned::commands.weather",
-                "unturned::features.freecam",
-                "unturned::features.workzone",
-                "unturned::features.swap_clothing",
                 "warfare::commands.points.*"
             ]
         },

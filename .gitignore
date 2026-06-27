@@ -9,7 +9,9 @@ Layouts/Invasion
 Layouts/VehicleConfigurations
 !Layouts/Seeding/**
 Leaderboard/*.yml
-Kits/Default Items.yml
 Voice
 uncreated_logo.jpg
 Translations
+Action Logs
+Cache
+Maps/PEI

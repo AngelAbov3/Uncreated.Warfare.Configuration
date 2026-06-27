@@ -59,6 +59,20 @@ Events:
     Credits: -5
     Reputation: -5
 
+  EnemyCacheDestroyed:
+    XP: 800
+    Reputation: 40
+
+  FriendlyCacheDestroyed:
+    XP: -8000
+    Credits: -250
+    Reputation: -200
+
+  LosDiscoverCache:
+    XP: 75
+    Credits: 18
+    Reputation: 25
+
   Suicide:
     XP: -20
     Credits: 0
@@ -156,21 +170,6 @@ Events:
     Credits: 30%
     Reputation: 3
     NominalResupplyAmount: 50
-
-  EnemyCacheDestroyed:
-    XP: 800
-    Credits: 100
-    Reputation: 70
-
-  FriendlyCacheDestroyed:
-    XP: -5000
-    Credits: -120
-    Reputation: -205
-
-  LosDiscoverCache:
-    XP: 75
-    Credits: 18
-    Reputation: 25
 
 # todo friendly vehicles
   DestroyEnemyVehicle:
