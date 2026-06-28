@@ -11,7 +11,8 @@ Layouts/VehicleConfigurations
 Leaderboard/*.yml
 Voice
 uncreated_logo.jpg
-Translations
 Action Logs
 Cache
 Maps/PEI
+Translations/en-us/**/*.properties
+!Translations/en-us/Enums/**/*.properties
