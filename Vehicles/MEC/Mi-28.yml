@@ -1,4 +1,4 @@
-VehicleAsset: ab43cebdc6574e3491d8954197ef8e9c
+VehicleAsset: 03d365b9c0bf4e14807be101a43a6a13
 Type: AttackHeli
 Branch: Airforce
 Class: Pilot
@@ -16,6 +16,6 @@ StartingItems:
 Rearm:
   AmmoConsumed: 3
   Items:
-    - a2066a6074564bdf8502db1dd8a11e80 # Hydra-70 M247 HEAT Rockets
-    - 3044aff8e6624aee97c342e7a224a082 # 20x102mm AP Incendiary Shells
+    - d93f1afc99664922a06746969a799dda # S-5 HEAT Rockets
+    - b7fc382afc0f4c399d4b6fe2ddd141c6 # Mi-28 30x165mm SAPHEI Shells
 Trunk: [ ]
