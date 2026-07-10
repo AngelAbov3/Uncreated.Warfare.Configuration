@@ -17,7 +17,7 @@ Rearm:
   AmmoConsumed: 3
   Items:
     - d28a0d5ec16942889b65f716080e74f8 # Type-04 HEAT Rockets
-    - d28a0d5ec16942889b65f716080e74f8d # Type-04 HEAT Rockets
+    - d28a0d5ec16942889b65f716080e74f8
     - 09d52852f70b4d83995806634d341ca8 # 23x115 HEI Shells
-    - 09d52852f70b4d83995806634d341ca8 # 23x115 HEI Shells
+    - 09d52852f70b4d83995806634d341ca8
 Trunk: [ ]

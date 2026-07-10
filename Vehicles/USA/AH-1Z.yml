@@ -17,5 +17,7 @@ Rearm:
   AmmoConsumed: 3
   Items:
     - a2066a6074564bdf8502db1dd8a11e80 # Hydra-70 M247 HEAT Rockets
+    - a2066a6074564bdf8502db1dd8a11e80
     - 3044aff8e6624aee97c342e7a224a082 # 20x102mm AP Incendiary Shells
+    - 3044aff8e6624aee97c342e7a224a082
 Trunk: [ ]

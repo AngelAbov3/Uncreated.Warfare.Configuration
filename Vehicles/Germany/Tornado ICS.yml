@@ -19,7 +19,7 @@ StartingItems:
 Rearm:
   AmmoConsumed: 20
   Items:
-    - c857e77d90644e2f94dfd304d11bb6d6 # 27x144mm AP Multipurpose Shells
+    - c857e77d90644e2f94dfd304d11bb6d6 # 27x145mm AP Multipurpose Shells
     - c857e77d90644e2f94dfd304d11bb6d6
     - bc2b7c9e44ee42df93a5eebd693d554b # 4x Aim-9 Sidewinder
     - bc2b7c9e44ee42df93a5eebd693d554b
