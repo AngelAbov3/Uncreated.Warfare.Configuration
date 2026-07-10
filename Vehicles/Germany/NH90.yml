@@ -1,11 +1,10 @@
-VehicleAsset: 0b54c7ce5d00469fafa26a8faa7f2a3a
+VehicleAsset: cccf76f8a17a47a0a6fa490777df8066
 Type: TransportHeli
 Branch: Airforce
 Class: Pilot
 TicketCost: 5
 RespawnTime: 5m
 Cooldown: 5m
-ShortName: CH-146 Griffon
 Crew:
   Seats:
     - 0

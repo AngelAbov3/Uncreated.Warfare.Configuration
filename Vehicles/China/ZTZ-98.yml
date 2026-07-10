@@ -1,11 +1,11 @@
-VehicleAsset: 283ba86868da4a1098a780dfb24deaf4
+VehicleAsset: 5c52db614a394189b377f36eded02736
 Type: MBT
 Branch: Armor
 Class: Crewman
 TicketCost: 15
 RespawnTime: 15m
 Cooldown: 15m
-ShortName: T-90
+ShortName: Type 98
 Crew:
   Seats:
     - 0
@@ -30,9 +30,9 @@ Rearm:
     - 9cfa55396aea4ba2b135d7a59b3b838c
     - 9cfa55396aea4ba2b135d7a59b3b838c
     - 9cfa55396aea4ba2b135d7a59b3b838c
-    - 6e9bc2083a1246b49b1656c2ec6f535a # 12.7x108mm Ammunition Crate
-    - 6e9bc2083a1246b49b1656c2ec6f535a
-    - 6e9bc2083a1246b49b1656c2ec6f535a
+    - a8bb1a88523646c48ea403827cc19d0c # 12.7x108mm Ammunition Crate
+    - a8bb1a88523646c48ea403827cc19d0c
+    - a8bb1a88523646c48ea403827cc19d0c
     - 5b2ca432d9ac496ca0a909501ecc45ae # Smoke Munition
     - 5b2ca432d9ac496ca0a909501ecc45ae
     - 5b2ca432d9ac496ca0a909501ecc45ae

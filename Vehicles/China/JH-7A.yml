@@ -1,0 +1,30 @@
+VehicleAsset: 8ba2f37345294fd99cc30f7328b44d8c
+Type: Jet
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+ShortName: JH-7A
+Crew:
+  Seats:
+    - 0
+    - 1
+    - 2
+    - 3
+  Invincible: true
+  PassengersInvincible: true
+  MaxAllowedCrew: 2
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 20
+  Items:
+    - 8c8626cad8914e74868cc8936623be77 # 30x165mm SAPHEI Shells
+    - 8c8626cad8914e74868cc8936623be77
+    - 36a7c0c5d49040e6955fa93ae435dbb5 # 4x PL-8
+    - 6a45f1c0c8544cc487d844ec2cc7ce9b
+    - c936c8ba22c1498b87d4fe113b65287b # FAB-250 M-62 Bombs
+    - c936c8ba22c1498b87d4fe113b65287b
+    - c224c0f10f014bbabf106a121499403a # Kh-29 Laser-Guided Missile
+    - c224c0f10f014bbabf106a121499403a

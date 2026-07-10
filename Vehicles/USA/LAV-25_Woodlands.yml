@@ -1,11 +1,10 @@
-VehicleAsset: cd29ea61219948bda2e18a7c0da84423
-Type: IFV
+VehicleAsset: 6cf712ac5fb1411b9c2996696848d621
+Type: APC
 Branch: Armor
 Class: Crewman
 TicketCost: 10
 RespawnTime: 10m
 Cooldown: 10m
-ShortName: LAV 6
 Crew:
   Seats:
     - 0

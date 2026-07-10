@@ -1,10 +1,11 @@
-VehicleAsset: aa3c6af4911243b5b5c9dc95ca1263bf
+VehicleAsset: 86cfe1eb8be144aeae7659c9c74ff11a
 Type: HMG
 Branch: Default
 Class: None
 TicketCost: 0
 RespawnTime: 0s
 Cooldown: 0s
+ShortName: Kord
 Crew:
   Seats: []
   Invincible: false
@@ -14,9 +15,9 @@ StartingItems:
 Rearm:
   AmmoConsumed: 2
   Items:
-    - 523c49ce4df44d46ba37be0dd6b4504b # .50 Cal Ammunition Crate
-    - 523c49ce4df44d46ba37be0dd6b4504b
-    - 523c49ce4df44d46ba37be0dd6b4504b
-    - 523c49ce4df44d46ba37be0dd6b4504b
+    - 6e9bc2083a1246b49b1656c2ec6f535a # 12.7x108mm Ammunition Crate
+    - 6e9bc2083a1246b49b1656c2ec6f535a
+    - 6e9bc2083a1246b49b1656c2ec6f535a
+    - 6e9bc2083a1246b49b1656c2ec6f535a
 Abandon:
   AllowAbandon: false
