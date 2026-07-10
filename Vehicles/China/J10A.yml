@@ -1,0 +1,20 @@
+VehicleAsset: f916a37276f5411ba6da0423913e4d2b
+Type: Jet
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+ShortName: J-10A
+Crew:
+  Seats:
+    - 0
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 15
+  Items:
+    - 39e3f93c1f3e4aee8c0aa39f9956204a # 6x PL-8
+    - 39e3f93c1f3e4aee8c0aa39f9956204a

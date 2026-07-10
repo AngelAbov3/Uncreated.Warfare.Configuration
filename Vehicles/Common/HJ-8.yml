@@ -1,0 +1,22 @@
+VehicleAsset: b63e9c2999c34ff3894138592dd9cb2e
+Type: ATGM
+Branch: Default
+Class: None
+TicketCost: 0
+RespawnTime: 0s
+Cooldown: 0s
+ShortName: HJ-8
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 4
+  Items:
+    - 9ba5db5cbd2c4b51bc236122a4c6b205 # HJ-8 Munition
+    - 9ba5db5cbd2c4b51bc236122a4c6b205
+    - 9ba5db5cbd2c4b51bc236122a4c6b205
+Abandon:
+  AllowAbandon: false

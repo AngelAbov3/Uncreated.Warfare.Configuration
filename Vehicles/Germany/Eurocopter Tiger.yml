@@ -1,0 +1,23 @@
+VehicleAsset: d9d4cbc88a8d43b3b8efc12b8fd9ddc9
+Type: AttackHeli
+Branch: Airforce
+Class: Pilot
+TicketCost: 20
+RespawnTime: 15m
+Cooldown: 15m
+Crew:
+  Seats:
+    - 0
+    - 1
+  Invincible: true
+  PassengersInvincible: true
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 3
+  Items:
+    - a2066a6074564bdf8502db1dd8a11e80 # Hydra-70 M247 HEAT Rockets
+    - a2066a6074564bdf8502db1dd8a11e80
+    - a39fe5c3d68645008a6665ffc8cf1978 # 30x113 AP Incendiary Shells
+    - a39fe5c3d68645008a6665ffc8cf1978
+Trunk: [ ]

@@ -1,0 +1,23 @@
+VehicleAsset: 9525ef43b9674343bb9561b5db078c1b
+Type: HMG
+Branch: Default
+Class: None
+TicketCost: 0
+RespawnTime: 0s
+Cooldown: 0s
+ShortName: Kord
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
+Rearm:
+  AmmoConsumed: 2
+  Items:
+    - a8bb1a88523646c48ea403827cc19d0c # 12.7x108mm Box
+    - a8bb1a88523646c48ea403827cc19d0c
+    - a8bb1a88523646c48ea403827cc19d0c
+    - a8bb1a88523646c48ea403827cc19d0c
+Abandon:
+  AllowAbandon: false

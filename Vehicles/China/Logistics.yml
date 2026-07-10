@@ -1,0 +1,43 @@
+VehicleAsset: 8d02c19c612c411e94c82f7513254829
+Type: LogisticsGround
+Branch: Default
+Class: Squadleader
+TicketCost: 5
+RespawnTime: 5m
+Cooldown: 0m
+ShortName: Logistics Truck
+Crew:
+  Seats: []
+  Invincible: false
+  PassengersInvincible: false
+StartingItems:
+  - d5b9f19e2f2a4ee2ab4dc666f32f7df3 # Portable Gas Can
+  - 1f80a9e0c86047d38b72e08e267885f6 # Carjack
+Rearm:
+  AmmoConsumed: 0
+  Items: []
+Trunk:
+  - Item: a2eb76590cf74401aeb7ff4b4b79fd86
+    X: 0
+    Y: 0
+    Rotation: 1
+  - Item: a2eb76590cf74401aeb7ff4b4b79fd86
+    X: 0
+    Y: 8
+    Rotation: 0
+  - Item: de94da4a993e4ebdbfd56d6e73d0af78
+    X: 5
+    Y: 0
+    Rotation: 0
+  - Item: de94da4a993e4ebdbfd56d6e73d0af78
+    X: 10
+    Y: 0
+    Rotation: 0
+  - Item: de94da4a993e4ebdbfd56d6e73d0af78
+    X: 5
+    Y: 4
+    Rotation: 0
+  - Item: de94da4a993e4ebdbfd56d6e73d0af78
+    X: 10
+    Y: 4
+    Rotation: 0
