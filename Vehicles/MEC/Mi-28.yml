@@ -17,5 +17,7 @@ Rearm:
   AmmoConsumed: 3
   Items:
     - d93f1afc99664922a06746969a799dda # S-5 HEAT Rockets
+    - d93f1afc99664922a06746969a799dda # S-5 HEAT Rockets
+    - b7fc382afc0f4c399d4b6fe2ddd141c6 # Mi-28 30x165mm SAPHEI Shells
     - b7fc382afc0f4c399d4b6fe2ddd141c6 # Mi-28 30x165mm SAPHEI Shells
 Trunk: [ ]
