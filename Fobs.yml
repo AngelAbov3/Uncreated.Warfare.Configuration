@@ -24,7 +24,7 @@ SupplyCrates:
     SupplyRadius: 40
     Icon: Effects:Fobs:Ammo
 Shovelables:
-    # Fob
+  # Forest Fob
   - Foundation: 1bb17277dd8148df9f4c53d1a19b2503
     FoundationIcon: Effects:Fobs:RadioDamaged
     Icon: Effects:Fobs:Bunker
@@ -34,7 +34,17 @@ Shovelables:
     RequiredShovelHits: 20
     CompletedStructure: 61c349f10000498fa2b92c029d38e523 
     CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
-    # TOW
+  # Desert Fob
+  - Foundation: 92b8b7dd56da42c2a744a7100eac5790
+    FoundationIcon: Effects:Fobs:RadioDamaged
+    Icon: Effects:Fobs:Bunker
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fob
+    SupplyCost: 10
+    RequiredShovelHits: 20
+    CompletedStructure: edbd9a9197494f71a37bb7b14209242e 
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # TOW
   - Foundation: a68ae466fb804829a0eb0d4556071801
     CompletedStructure: f1e42f35918f4db7b21d3749f9c0092c
     IconOffset: (0, 1, 0)
@@ -151,7 +161,7 @@ Shovelables:
     SupplyCost: 0.5
     RequiredShovelHits: 3
     CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
-  # Camo Netting Square
+  # Forest Camo Netting Square
   - Foundation: 224b3c09335c4da0968e68d18f27da73
     CompletedStructure: 9e156cac231a4ebeab7504e578180427
     IconOffset: (0, 0.5, 0)
@@ -159,7 +169,7 @@ Shovelables:
     SupplyCost: 1
     RequiredShovelHits: 10
     CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
-  # Camo Netting Square Draped
+  # Forest Camo Netting Square Draped
   - Foundation: 561b21d17408469190db6e0290a4ee03
     CompletedStructure: 0b2cc421a84b41b6ad472015ea5aba05
     IconOffset: (0, 0.5, 0)
@@ -167,9 +177,33 @@ Shovelables:
     SupplyCost: 0.5
     RequiredShovelHits: 10
     CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
-  # Camo Netting Wall
+  # Forest Camo Netting Wall
   - Foundation: ef46dc8cfde84cdc9c864e644bb5eb54
     CompletedStructure: 78511967b00d401e9037a6d6346177fb
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 8
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Desert Camo Netting Square
+  - Foundation: c9acb9358e494d4fb5466c4113aa901e
+    CompletedStructure: 06802263cd25468bb3550432171b1dab
+    IconOffset: (0, 0.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 1
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Desert Camo Netting Square Draped
+  - Foundation: e6d9d051e0164d55a2c99d83fcc7c23a
+    CompletedStructure: 0ee028927d164627a2f8c6a95533b4f1
+    IconOffset: (0, 0.5, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 0.5
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+  # Desert Camo Netting Wall
+  - Foundation: d14a6d80093d4c16b4f4a36e508322f5
+    CompletedStructure: cf6da5117e01440eba47858dca7d4a32
     IconOffset: (0, 2, 0)
     ConstuctionType: Fortification
     SupplyCost: 0.5
@@ -187,6 +221,24 @@ Shovelables:
   # Forest Hesco Tower
   - Foundation: 827d0ca8bfff43a39f750f191e16ea71
     CompletedStructure: d218dac48e164ef5a810bd33bfe524ee
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 2
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 6
+  # Desert Hesco Wall
+  - Foundation: 54a640a6d7e74d6ea6174a35accb6770
+    CompletedStructure: 747835ca17674d1fae31424658fdd3a7
+    IconOffset: (0, 2, 0)
+    ConstuctionType: Fortification
+    SupplyCost: 2
+    RequiredShovelHits: 10
+    CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
+    MaxAllowedPerFob: 6
+  # Desert Hesco Tower
+  - Foundation: f1c2c8c10ca8472b8758c06c7a0aac32
+    CompletedStructure: 7e0eb14ca25d4784a6cc9d884d6f2f5c
     IconOffset: (0, 2, 0)
     ConstuctionType: Fortification
     SupplyCost: 2
@@ -217,5 +269,3 @@ ThrowableAmmoBags:
 ThrowableVehicleSupplyCrates:
   - ThrowableItemAsset: 08677ddc06604ac0b81f3ad8a65eb182
     ResupplyEffect: 8a2740cfc6f64ca68410145a83027735
-
-
