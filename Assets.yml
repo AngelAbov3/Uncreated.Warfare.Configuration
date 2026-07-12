@@ -25,6 +25,7 @@ UI:                                                            # __Unity Names__
   SeedingPlayHUD: c20a452954cf4fb8a9dc9cbf18332c06             # SeedingPlayHUD
   KitSelectionUI: 09c4d106c52c4c9d8c28b446acc7cfe3             # KitSelectionUI
   KitSelectionUI_Frame: 2783d6f59b91414f9f5ee51b1da960ab       # KitSelectionUI_Frame
+  MapTackInfoUI: b20458dabb7147c3bfe50ed903a36e75              # MapTackInfoUI
   Toasts:
     GameOver: 1f3ce50c120042c390f5c42522bd0fcd                 # GameOverToast
     Large: 9de82ffea13946b391090eb918bf3991                    # LargeToast
