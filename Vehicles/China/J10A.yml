@@ -1,11 +1,11 @@
-VehicleAsset: 172c77cbdb5e40a6ab2ffbbbe551b013s
+VehicleAsset: f916a37276f5411ba6da0423913e4d2b
 Type: Jet
 Branch: Airforce
 Class: Pilot
 TicketCost: 20
 RespawnTime: 15m
 Cooldown: 15m
-ShortName: Su-27
+ShortName: J-10A
 Crew:
   Seats:
     - 0
@@ -16,5 +16,5 @@ StartingItems:
 Rearm:
   AmmoConsumed: 15
   Items:
-    - 950a0c68a6c54726832d410973002eda # 6x Vympel R-27
-    - 950a0c68a6c54726832d410973002eda
+    - 39e3f93c1f3e4aee8c0aa39f9956204a # 6x PL-8
+    - 39e3f93c1f3e4aee8c0aa39f9956204a

@@ -17,10 +17,10 @@ StartingItems:
 Rearm:
   AmmoConsumed: 4
   Items:
-    - 5d7b6736471449ef91cf8d1dc190d987 # 25x137mm AP
+    - 5d7b6736471449ef91cf8d1dc190d987 # 30x165mm AP
     - 5d7b6736471449ef91cf8d1dc190d987
     - 5d7b6736471449ef91cf8d1dc190d987
-    - 37d3c65aaa4d4e979347e07cb69d105c # 25x137mm HE
+    - 37d3c65aaa4d4e979347e07cb69d105c # 30x165mm HE
     - 37d3c65aaa4d4e979347e07cb69d105c
     - 37d3c65aaa4d4e979347e07cb69d105c
     - 5b2ca432d9ac496ca0a909501ecc45ae # Smoke Munition

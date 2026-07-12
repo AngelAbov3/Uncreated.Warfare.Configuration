@@ -1,4 +1,4 @@
-VehicleAsset: 86cfe1eb8be144aeae7659c9c74ff11a
+VehicleAsset: 9525ef43b9674343bb9561b5db078c1b
 Type: HMG
 Branch: Default
 Class: None
@@ -15,9 +15,9 @@ StartingItems:
 Rearm:
   AmmoConsumed: 2
   Items:
-    - 6e9bc2083a1246b49b1656c2ec6f535a # 12.7x108mm Box
-    - 6e9bc2083a1246b49b1656c2ec6f535a
-    - 6e9bc2083a1246b49b1656c2ec6f535a
-    - 6e9bc2083a1246b49b1656c2ec6f535a
+    - a8bb1a88523646c48ea403827cc19d0c # 12.7x108mm Ammunition Crate
+    - a8bb1a88523646c48ea403827cc19d0c
+    - a8bb1a88523646c48ea403827cc19d0c
+    - a8bb1a88523646c48ea403827cc19d0c
 Abandon:
   AllowAbandon: false

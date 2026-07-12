@@ -1,4 +1,4 @@
-VehicleAsset: 6c049f919ba5470588375ed949bdab98
+VehicleAsset: bb5d39beedbd4180880fa0a9b5258454
 Type: Humvee
 Branch: Default
 Class: None
@@ -16,7 +16,7 @@ StartingItems:
 Rearm:
   AmmoConsumed: 2
   Items:
-    - 523c49ce4df44d46ba37be0dd6b4504b  # .50 Cal Ammunition Crate
+    - 523c49ce4df44d46ba37be0dd6b4504b # .50 Cal Ammunition Crate
     - 523c49ce4df44d46ba37be0dd6b4504b
     - 523c49ce4df44d46ba37be0dd6b4504b
     - 523c49ce4df44d46ba37be0dd6b4504b

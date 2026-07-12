@@ -1,11 +1,11 @@
-VehicleAsset: cd29ea61219948bda2e18a7c0da84423
-Type: IFV
+VehicleAsset: 8d5dc5d09d794c12bdf8d0b379493218
+Type: APC
 Branch: Armor
 Class: Crewman
 TicketCost: 10
 RespawnTime: 10m
 Cooldown: 10m
-ShortName: LAV 6
+ShortName: WZ-551
 Crew:
   Seats:
     - 0
@@ -17,12 +17,12 @@ StartingItems:
 Rearm:
   AmmoConsumed: 4
   Items:
-    - 22788e26c5f5483892c9562003b63d49 # 25x137mm AP
-    - 22788e26c5f5483892c9562003b63d49
-    - 22788e26c5f5483892c9562003b63d49
-    - 0a3e936426c445c3bb5dc10066d789a4 # 25x137mm HE
-    - 0a3e936426c445c3bb5dc10066d789a4
-    - 0a3e936426c445c3bb5dc10066d789a4
+    - 8722e1c531f043ebaec05d9639a6495a # 25x183mm AP
+    - 8722e1c531f043ebaec05d9639a6495a
+    - 8722e1c531f043ebaec05d9639a6495a
+    - 634a3373b4dd48e99488e83e284a4760 # 25x183mm HE
+    - 634a3373b4dd48e99488e83e284a4760
+    - 634a3373b4dd48e99488e83e284a4760
     - 5b2ca432d9ac496ca0a909501ecc45ae # Smoke Munition
     - 5b2ca432d9ac496ca0a909501ecc45ae
     - 5b2ca432d9ac496ca0a909501ecc45ae
