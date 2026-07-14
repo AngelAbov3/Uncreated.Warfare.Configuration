@@ -9,8 +9,10 @@ ShortName: Z-8
 Crew:
   Seats:
     - 0
-  Invincible: false
+  Invincible: true
   PassengersInvincible: false
+  Except: [ 3 ]
+  InvincibleForwardOnly: true
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:

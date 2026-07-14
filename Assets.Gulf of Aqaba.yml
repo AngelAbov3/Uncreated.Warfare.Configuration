@@ -1,0 +1,20 @@
+Buildables:
+  MapTacks:
+    Fob: 06663e4e9a7340fe9fcf28573a174d7e
+    FobProxied: 313d91017e3e49c7aa9f434a11deb252
+    FobUnbuilt: c55d788eece444749e889dff3de7a626
+    MainBase: 670c728832a94e6496aa1ec877c1b422
+    EnemyMainBase: 31273631b7754f9fa5f598fdd595760a
+    VCP: b8b8de3a07044a098e7063214f36895e
+    Rallypoints:
+      1: 9bac2f79e84346c6885c1ae6ea2ab104
+      2: c205a46837e94958bfc309bb8ac895bb
+      3: 3e4792c784094dff9907ac72b22046b0
+      4: 525cbd43279e4f5393957aad47611d0a
+      5: f410060cdabb47fa83e27b4741c75726
+      6: 6bcdd0177218443f9e9fbb976297ae47
+      7: 83aeb3ee260546c98610446f92a34fe5
+      8: f61e913ca71243759bb1c83a87e8cdc7
+  Gameplay:
+    Fob: edbd9a9197494f71a37bb7b14209242e
+    FobUnbuilt: 92b8b7dd56da42c2a744a7100eac5790

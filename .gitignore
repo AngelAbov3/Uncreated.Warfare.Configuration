@@ -1,18 +1,19 @@
-System Config.yml
-Quests/*
-!Quests/Quest Types.yml
-Plugins/**
-Layouts/AAS
-Layouts/FlagVariations
-Layouts/Insurgency
-Layouts/Invasion
-Layouts/VehicleConfigurations
-!Layouts/Seeding/**
-Leaderboard/*.yml
-Voice
-uncreated_logo.jpg
-Action Logs
-Cache
-Maps/PEI
-Translations/en-us/**/*.properties
-!Translations/en-us/Enums/**/*.properties
+/System Config.yml
+/Quests/*
+!/Quests/Quest Types.yml
+/Plugins/**
+/Layouts/AAS
+/Layouts/FlagVariations
+/Layouts/Insurgency
+/Layouts/Invasion
+/Layouts/VehicleConfigurations
+!/Layouts/Seeding/**
+/Leaderboard/*.yml
+/Voice
+/uncreated_logo.jpg
+/Action Logs
+/Cache
+/Maps/PEI
+/Translations/en-us/**/*.properties
+!/Translations/en-us/Enums/**/*.properties
+/Vehicles/Quad.yml

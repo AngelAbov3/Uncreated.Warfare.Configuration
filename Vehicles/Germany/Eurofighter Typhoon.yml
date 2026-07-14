@@ -9,7 +9,7 @@ Crew:
   Seats:
     - 0
   Invincible: true
-  PassengersInvincible: false
+  PassengersInvincible: true
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:

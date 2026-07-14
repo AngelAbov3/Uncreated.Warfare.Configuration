@@ -86,7 +86,6 @@ Buildables:
     Fob: c0d87f64953f4195b90100b3b06f1df3
     FobProxied: ed03e234910e470cb81135a7c8ca7ec7
     FobUnbuilt: e3fca969c5ca4f6f9bdf10ddf6e8d2fc
-    TemporarySpawnPoint: 2bb28c62054944409c8cc79ee4805313
     NeutralFlag: 607c3f42e26940a8a83e41f7a75e2f09
     MainBase: d7c3c3f475204258b87aeb1927f7badb
     EnemyMainBase: 79162d7e57474134bed6d1e9feb03c37
@@ -104,7 +103,6 @@ Buildables:
       7: ae8272d56634435fb87a2bf5f2e152d3
       8: f8f363ba24ea4d1ca55d978ebbf6e4b9
   Gameplay:
-    RepairStation: c0d11e0666694ddea667377b4c0580be
     Fob: 61c349f10000498fa2b92c029d38e523
     FobUnbuilt: 1bb17277dd8148df9f4c53d1a19b2503
     InsurgencyCache: 39051f33f24449b4b3417d0d666a4f27
