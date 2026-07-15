@@ -101,6 +101,7 @@
                 "warfare::actions.buildables.destroy_any",
                 "warfare::actions.buildables.place_any",
                 "warfare::features.swap_clothing",
+                "warfare::features.vanish",
                 "warfare::features.connect"
             ]
         },
