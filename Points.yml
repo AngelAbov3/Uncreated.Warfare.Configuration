@@ -177,27 +177,27 @@ Events:
   DestroyEnemyVehicle:
     Humvee:
       XP: 25
-      Reputation: 4
+      Reputation: 5
 
     TransportGround:
       XP: 20
-      Reputation: 2
+      Reputation: 5
 
     ScoutCar:
       XP: 30
-      Reputation: 4
+      Reputation: 5
 
     LogisticsGround:
       XP: 25
-      Reputation: 2
+      Reputation: 5
 
     APC:
       XP: 60
-      Reputation: 6
+      Reputation: 10
 
     IFV:
       XP: 80
-      Reputation: 8
+      Reputation: 10
 
     MBT:
       XP: 100
@@ -205,28 +205,28 @@ Events:
 
     TransportAir:
       XP: 30
-      Reputation: 4
+      Reputation: 5
 
     AttackHeli:
       XP: 100
-      Reputation: 12
+      Reputation: 10
 
     Jet:
       XP: 125
-      Reputation: 14
+      Reputation: 10
 
     AA:
-      XP: 15
-      Reputation: 4
+      XP: 20
+      Reputation: 3
 
     HMG:
-      XP: 15
-      Reputation: 4
+      XP: 20
+      Reputation: 3
 
     ATGM:
-      XP: 15
-      Reputation: 4
+      XP: 20
+      Reputation: 3
 
     Mortar:
-      XP: 15
-      Reputation: 4
+      XP: 20
+      Reputation: 3
