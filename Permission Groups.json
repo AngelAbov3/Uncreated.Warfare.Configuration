@@ -62,7 +62,8 @@
                 "warfare::commands.warfaredev",
                 "warfare::commands.warfaredev.squads.menu.*",
                 "warfare::commands.nerd.*",
-                "warfare::features.connect"
+                "warfare::features.connect",
+                "warfare::features.dutynotification"
             ]
         },
         {
@@ -102,7 +103,8 @@
                 "warfare::actions.buildables.place_any",
                 "warfare::features.swap_clothing",
                 "warfare::features.vanish",
-                "warfare::features.connect"
+                "warfare::features.connect",
+                "warfare::features.dutynotification"
             ]
         },
         {
