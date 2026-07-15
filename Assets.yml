@@ -143,6 +143,9 @@ Projectiles:
       - e3f296f798b64a6c98009fb071cb45f8 # F-15 Bombs
       - 3754ca2527ee40e2ad0951c8930efb07 # Su-34 Kh-29
       - 8b61f77fa7194baaba65d1ec0a5c0e87 # Su-34 Bombs
+      - 06cdbbf06436409b9c3ba9237cc486aa # AH-1Z / Eurotiger Rockets
+      - fc81c5f027364023b212900e9c3c7697 # MI-28 Rockets
+      - 45de0912d5994947800e1732937de373 # Z-10 Rockets
     GroundAttackOnlyWeapons:
       - 433ea5249699420eb7adb67791a98134 # F-15 Maverick
       - 3754ca2527ee40e2ad0951c8930efb07 # Su-34 Kh-29

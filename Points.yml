@@ -45,14 +45,14 @@ Events:
 
   AdminOnDutyTick:
     XP: 5
-    Credits: 1
+    Credits: 5
     ExcludeFromLeaderboard: true
     IgnoresGlobalMultiplier: true
     IgnoresBoosts: true
 
   EnemyKilled:
     XP: 10
-    Credits: 1
+    Credits: 5
 
   FriendlyKilled:
     XP: -20
@@ -61,25 +61,26 @@ Events:
 
   EnemyCacheDestroyed:
     XP: 800
+    Credits: 160
     Reputation: 40
 
   FriendlyCacheDestroyed:
-    XP: -8000
-    Credits: -250
-    Reputation: -200
+    XP: -1000
+    Credits: -75
+    Reputation: -100
 
   LosDiscoverCache:
     XP: 75
-    Credits: 18
-    Reputation: 25
+    Credits: 20
+    Reputation: 10
 
   Suicide:
-    XP: -20
+    XP: -10
     Credits: 0
-    Reputation: -1
+    Reputation: 0
 
   HealedTeammate:
-    XP: 10
+    XP: 15
     Credits: 30%
     Reputation: 1
 
@@ -90,13 +91,13 @@ Events:
 
   ResuppliedTeammate:
     XP: 10
-    Credits: 30%
+    Credits: 5
     Reputation: 1
     NominalAmmoPerReward: 1
 
   EnemyFobDestroyed:
     XP: 80
-    Credits: 30%
+    Credits: 50
     Reputation: 5
 
   FriendlyFobDestroyed:
@@ -106,125 +107,126 @@ Events:
   
   PlayerDeployToFob:
     XP: 10
-    Credits: 1
+    Credits: 5
     Reputation: 1
 
   FlagCaptured:
     XP: 30
     Credits: 5
-    Reputation: 2
+    Reputation: 1
 
   FlagNeutralized:
     XP: 50
-    Credits: 3
-    Reputation: 2
+    Credits: 5
+    Reputation: 1
 
   FlagTickAttack:
-    XP: 6
-    Credits: 1
+    XP: 10
+    Credits: 5
     
   FlagTickDefend:
-    XP: 5
-    Credits: 1
+    XP: 10
+    Credits: 5
     
   TransportedPlayer:
-    XP: 5
-    Credits: 30%
+    XP: 10
+    Credits: 5
     NominalTransportDistance: 200
     
   ShoveledBuildable:
-    XP: 2
-    Credits: 1
+    XP: 5
+    Credits: 5
 
   FobBuilt:
     XP: 100
-    Credits: 30%
-    Reputation: 5
+    Credits: 50
+    Reputation: 10
 
   RepairStationBuilt:
     XP: 50
     Credits: 30%
-    Reputation: 3
+    Reputation: 1
 
   FortificationBuilt:
-    XP: 10
+    XP: 15
     Credits: 30%
+    Reputation: 1
 
   EmplacementBuilt:
-    XP: 40
+    XP: 30
     Credits: 30%
     Reputation: 1
 
   PlacedAmmoCrateResupplied:
     XP: 20
-    Credits: 1
+    Credits: 5
     Reputation: 1
 
   PlacedStationTickRepaired:
-    XP: 3
-    Credits: 1
+    XP: 5
+    Credits: 5
     Reputation: 1
 
   ResuppliedFob:
     XP: 25
     Credits: 30%
-    Reputation: 3
+    Reputation: 5
     NominalResupplyAmount: 50
 
 # todo friendly vehicles
   DestroyEnemyVehicle:
     Humvee:
       XP: 25
-      Reputation: 5
+      Reputation: 4
 
     TransportGround:
       XP: 20
-      Reputation: 3
+      Reputation: 2
 
     ScoutCar:
       XP: 30
-      Reputation: 5
+      Reputation: 4
 
     LogisticsGround:
       XP: 25
-      Reputation: 4
+      Reputation: 2
 
     APC:
       XP: 60
       Reputation: 6
 
     IFV:
-      XP: 70
-      Reputation: 7
+      XP: 80
+      Reputation: 8
 
     MBT:
       XP: 100
       Reputation: 10
 
     TransportAir:
-      XP: 35
-      Reputation: 6
+      XP: 30
+      Reputation: 4
 
     AttackHeli:
       XP: 100
-      Reputation: 8
+      Reputation: 12
 
     Jet:
       XP: 125
-      Reputation: 9
+      Reputation: 14
 
     AA:
-      XP: 20
-      Reputation: 3
+      XP: 15
+      Reputation: 4
 
     HMG:
-      XP: 20
-      Reputation: 3
+      XP: 15
+      Reputation: 4
 
     ATGM:
-      XP: 20
-      Reputation: 3
+      XP: 15
+      Reputation: 4
 
     Mortar:
-      XP: 20
-      Reputation: 3
+      XP: 15
+      Reputation: 4
