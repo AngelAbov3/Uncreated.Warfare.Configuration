@@ -37,6 +37,7 @@
                 "warfare::commands.vehicle.kick.*",
                 "warfare::commands.vehicle.give.*",
                 "warfare::commands.squads.*",
+                "warfare::commands.kits",
                 "warfare::commands.kit",
                 "warfare::commands.kit.hotkey.*",
                 "warfare::commands.kit.layout.*",

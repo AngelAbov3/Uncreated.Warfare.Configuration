@@ -1,0 +1,31 @@
+Magazines:
+  Pistol: 0.1
+  MachinePistol: 0.15
+  LargeMachinePistol: 0.15
+  MediumSidearm: 0.15
+  Shotgun: 0.15
+  SmallShotgun: 0.1
+  SubmachineGun: 0.2
+  Rifle: 0.2
+  BattleRifle: 0.2
+  LightMachineGun: 0.4
+  GeneralPurposeMachineGun: 0.5
+  DMR: 0.3
+  Sniper: 0.3
+  GrenadeLauncher: 0.2
+  LightAntiTank: 0.7
+  HeavyAntiTank: 0.7
+  TooDifficultToClassify: 0.2
+Equipment:
+  FragThrowable: 0.3
+  OtherThrowable: 0.1
+  MedicalHigh: 0.15
+  MedicalLow: 0.1
+  VehicleTrap: 0.4
+  TrapHigh: 0.2
+  TrapLow: 0.15
+  ChargeSmall: 0.2
+  ChargeMedium: 0.4
+  ChargeLarge: 1
+  BuildableSmall: 0.15
+  BuildableLarge: 0.35

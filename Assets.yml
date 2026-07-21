@@ -1,30 +1,21 @@
 UI:                                                            # __Unity Names__
   GiveUp: 27b84636ed8d4c0fb557a67d89254b00                     # ReviveHUD
   FobHUD: 1de3174f5cc449a48e4f6347897623e7                     # FobHUD
-  FobResources: 3775a1e7d84b47e79cacecd5e6b2a224               # SuppliesHUD
-  ActionMenu: bf4bc4e1a6a849c29e9f7a6de3a943e4                 # ActionMenu
   VehicleHud: 1e1762d6f01442e89d159d4cd0ae7587                 # VehicleHUD
   ModerationMenu: 80aee6c3f43f4c7facb2f2ffbb545d20             # ModerationHUD
   CaptureHUD: 0c6fb297197243b38aa47b9c9c1e1d8c                 # CaptureHUD
   FlagHUD: af58e2ad05ef4bb4ac177dd40a084946                    # FlagHUD
   DualSidedLeaderboardUI: 30f6029be72249de94c17a4d06a7cd49     # DualSidedLeaderboardUI
   Header: c14fe9ffee6d4f8dbe7f57885f678edd                     # StagingPhaseCountdown
-  MutedUI: c5e31c7357134be09732c1930e0e4ff0                    # MutedUI
   DutyUI: b7a198c054004526a331b90ec97c6d1a                     # DutyUI
-  Credits: 3195b96457d04b9e80699777d2809b4c                    # CreditsHUD
   PlayerSquadHUD: b3ec66182ab04def9ea3a1ac11b5270a             # PlayerSquadHUD
   SquadMenuHUD: 88ab3ea884b74821a9e5f39d8e45078e               # SquadMenuHUD
-  KitMenu: c0155ea486d8427d9c70541abc875e78                    # KitMenuHUD
-  TeamSelector: b5924bc83eb24d7298a47f933d3f16d9               # TeamSelectorHUD
-  Tickets: aba88eedb84448e8a30bb803a53a7236                    # TicketCount
-  Buffs: f298af0b4d34405b98a539b8d2ff0505                      # Buffs
   LobbyHud: 073f94ef9f3042a78113f1e7bf62dac7                   # LobbyHUD
   Points: 3f9304cab99248b5bb94bb5ac77b7a10                     # PointsHUD
   Options: a101c594bd5349ca9b886036c86aca75                    # OptionsUI
   SeedingVoteHUD: afdf11b38722485c9f4e9847c583f013             # SeedingVoteHUD
   SeedingPlayHUD: c20a452954cf4fb8a9dc9cbf18332c06             # SeedingPlayHUD
   KitSelectionUI: 09c4d106c52c4c9d8c28b446acc7cfe3             # KitSelectionUI
-  KitSelectionUI_Frame: 2783d6f59b91414f9f5ee51b1da960ab       # KitSelectionUI_Frame
   MapTackInfoUI: b20458dabb7147c3bfe50ed903a36e75              # MapTackInfoUI
   Toasts:
     GameOver: 1f3ce50c120042c390f5c42522bd0fcd                 # GameOverToast
@@ -34,6 +25,7 @@ UI:                                                            # __Unity Names__
     Progress: a113a0f2d0af4db8b5e5bcbc17fc96c9                 # ProgressToast
     Tip: abbf74e86f1c4665925884c70b9433ba                      # TipToast
     Popup: bc6bbe8ce1d2464bb828d01ba1c5d461                    # Popup
+    CopyPopup: eff0be4ee661489c971b730c6d96a0d4                # CopyPopup
     Alert: 4f8a6ca089a7499793c6076da9807273                    # WarningToast
   DialogueBox: 0add13c6f5c34e7683b9908e8f1caac3                # DialogueBox
 Effects:
@@ -164,3 +156,4 @@ Objects:
   TeleportToMainDoors:
     - 0386807338804f2ba86ab32fb675219b
   TeleportToMainDoorFlag: 56300
+  KitArmory: 555b7e13d1004b27a699f50860d13eb8
