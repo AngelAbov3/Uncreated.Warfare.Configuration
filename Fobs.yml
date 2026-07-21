@@ -1,7 +1,7 @@
 FobDeployDelay: 7
 MaxNumberOfFobs: 10
 MinDistanceBetweenFobs: 150
-MinFobDistanceFromMain: 300
+MinFobDistanceFromMain: 120
 SupplyCrates:
   - SupplyItemAsset: a2eb76590cf74401aeb7ff4b4b79fd86
     Type: Build
