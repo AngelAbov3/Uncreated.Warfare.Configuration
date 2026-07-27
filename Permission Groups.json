@@ -37,6 +37,7 @@
                 "warfare::commands.vehicle.kick.*",
                 "warfare::commands.vehicle.give.*",
                 "warfare::commands.squads.*",
+                "warfare::commands.kits",
                 "warfare::commands.kit",
                 "warfare::commands.kit.hotkey.*",
                 "warfare::commands.kit.layout.*",
@@ -62,7 +63,8 @@
                 "warfare::commands.warfaredev",
                 "warfare::commands.warfaredev.squads.menu.*",
                 "warfare::commands.nerd.*",
-                "warfare::features.connect"
+                "warfare::features.connect",
+                "warfare::features.dutynotification"
             ]
         },
         {
@@ -102,7 +104,8 @@
                 "warfare::actions.buildables.place_any",
                 "warfare::features.swap_clothing",
                 "warfare::features.vanish",
-                "warfare::features.connect"
+                "warfare::features.connect",
+                "warfare::features.dutynotification"
             ]
         },
         {
@@ -123,8 +126,15 @@
             "permissions":
             [
                 "warfare::commands.kit.*",
+                "-warfare::commands.kit.unlock",
+                "-warfare::commands.kit.lock",
                 "warfare::commands.clear.*",
                 "warfare::commands.heal.*",
+                "warfare::commands.zone.*",
+                "unturned::commands.day",
+                "unturned::commands.night",
+                "unturned::commands.kill",
+                "unturned::commands.weather",
                 "unturned::features.freecam"
             ]
         },
@@ -146,22 +156,17 @@
             "permissions":
             [
                 "warfare::commands.ipwhitelist.*",
+                "warfare::commands.kit.unlock",
+                "warfare::commands.kit.lock",
                 "warfare::commands.jump.*",
                 "warfare::commands.speed.*",
                 "warfare::commands.trait.*",
                 "warfare::commands.vehiclebay.*",
                 "warfare::commands.whitelist.*",
-                "warfare::commands.zone.*",
-                "warfare::commands.kit.*",
-                "warfare::commands.test.*",
                 "warfare::commands.shutdown.*",
                 "warfare::commands.warfaredev.buildables.*",
                 "warfare::commands.warfaredev.quickwin.*",
                 "warfare::commands.warfaredev.layout.*",
-                "unturned::commands.day",
-                "unturned::commands.night",
-                "unturned::commands.kill",
-                "unturned::commands.weather",
                 "warfare::commands.points.*"
             ]
         },

@@ -1,7 +1,7 @@
 FobDeployDelay: 7
 MaxNumberOfFobs: 10
 MinDistanceBetweenFobs: 150
-MinFobDistanceFromMain: 300
+MinFobDistanceFromMain: 120
 SupplyCrates:
   - SupplyItemAsset: a2eb76590cf74401aeb7ff4b4b79fd86
     Type: Build
@@ -17,12 +17,14 @@ SupplyCrates:
     SupplyRadius: 40
     Icon: Effects:Fobs:Ammo
     IconOffset: (0, 0.75, 0)
+    CanChangeKit: true
   - SupplyItemAsset: 5c88dbd8e81444678f0f3a653f3e7e5d
     Type: Ammo
     PlacementEffect: 066c35a3e97e476a9f0a75218b4f6683
     StartingSupplies: 5
     SupplyRadius: 40
     Icon: Effects:Fobs:Ammo
+    IconOffset: (0, 0.45, 0)
 Shovelables:
   # Forest Fob
   - Foundation: 1bb17277dd8148df9f4c53d1a19b2503
