@@ -49,7 +49,8 @@
                 "warfare::commands.squad.*",
                 "warfare::commands.teams.*",
                 "warfare::commands.vehiclebay",
-                "warfare::commands.vehiclebay.check"
+                "warfare::commands.vehiclebay.check",
+                "warfare::commands.nohud"
             ]
         },
         {

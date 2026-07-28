@@ -38,3 +38,6 @@ FOB Deploy:
   MinimumCooldown: 60
   MaximumCooldown: 90
   Alpha: 2
+
+RequestKitInField:
+  Duration: 30s
