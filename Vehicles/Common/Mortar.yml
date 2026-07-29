@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 3
+  AmmoConsumed: 6
   Items:
     - 66f4c76a119e4d6ca9d0b1a866c4d901 # Mortar Shell
     - 66f4c76a119e4d6ca9d0b1a866c4d901

@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 3
+  AmmoConsumed: 6
   Items:
     - a54d571983c2432a9624eec39d602997 # Igla Munition
     - a54d571983c2432a9624eec39d602997

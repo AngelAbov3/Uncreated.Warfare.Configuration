@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 4
+  AmmoConsumed: 6
   Items:
     - 3128a69d06ac4bbbbfddc992aa7185a6 # TOW Munition
     - 3128a69d06ac4bbbbfddc992aa7185a6

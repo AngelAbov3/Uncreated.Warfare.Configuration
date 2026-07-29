@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 4
+  AmmoConsumed: 6
   Items:
     - d7774b017c404adbb0a0fe8e902b9689 # Kornet Munition
     - d7774b017c404adbb0a0fe8e902b9689
