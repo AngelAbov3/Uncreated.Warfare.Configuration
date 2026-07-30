@@ -1,0 +1,490 @@
+/*
+This file details all the different combinations of attributes that form a death message.
+These attributes are represented by 6 formatting arguments:
+
+ • None = death with little to no extra info.
+ • Item = the primary item that killed the player is known.
+ • Item2 = a secondary item that killed the player is known.
+ • NoDistance = don't show the distance in the killfeed. This is used mainly when a player crashes a vehicle so the distance doesn't show up as 0
+ • Killer = a player at fault is known, this isn't filled in for suicides
+ • Player3 = a third player involved is known
+ • Suicide = the dead player is at fault
+ • Bleeding = the death happened after bleeding out
+
+ • Always present
+{0} = Dead player's name
+
+ • Present when 'Killer' is in argument list, if the killer is the dead player 'Suicide' will be in the argument list instead
+{1} = Killer's name
+
+ • Present in gun and melee deaths
+{2} = Limb name
+
+ • Present when 'Item' is in argument list
+{3} = Item Name
+
+ • Present unless 'NoDistance' is in the argument list
+{4} = Kill Distance
+
+ • Present when 'Player3' is in the argument list. This player is used for some special cases:
+  ○ Landmines (Killer = placer of landmine, Player3 = person that triggered it)
+  ○ Vehicle (Killer = person that blew up the vehicle (sometimes the driver), Player3 = driver)
+  ○ Gun (Killer = original shooter, Player3 = driver of vehicle if on a turret)
+  ○ Splash damage (Killer = original shooter, Player3 = driver of vehicle if on a turret)
+{5} = Player 3
+
+ • present when 'Item2' is in the argument list
+  ○ Gun (Item = original gun, Item2 = vehicle if shot from a turret)
+  ○ Splash damage (Item = original gun, Item2 = vehicle if shot from a turret)
+  ○ Landmines (Item = original landmine, Item2 = throwable item used to trigger landmine)
+  ○ Sentry (Item = original sentry, Item2 = gun held by sentry)
+  ○ Vehicle (Item = original vehicle, Item2 = item used to destroy the vehicle (gun, explosive, etc))
+{6} = Item 2
+
+The bottom item, "d6424d03-4309-417d-bc5f-17814af905a8", is an override for the mortar
+*/
+
+[
+  {
+    "death-cause": "acid",
+    "translations": {
+      "None": "{0} 被酸液僵尸杀死了。",
+      "Bleeding": "{0} 被酸液灼伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "animal",
+    "translations": {
+      "None": "{0} 被动物咬死了。",
+      "Bleeding": "{0} 被动物咬伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "arena",
+    "translations": {
+      "None": "{0} 离开了竞技场范围。"
+    }
+  },
+  {
+    "death-cause": "bleeding",
+    "translations": {
+      "None": "{0} 受伤后未及时包扎，最终流血而亡。",
+      "Killer": "{0} 被 {1} 攻击后流血而亡。",
+      "Item": "{0} 被 {3} 伤到后流血而亡。",
+      "Item, Killer": "{0} 被 {1} 使用 {3} 攻击后流血而亡。",
+      "Suicide": "{0} 让自己流血而亡。",
+      "Item, Suicide": "{0} 使用 {3} 伤到自己后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "bones",
+    "translations": {
+      "None": "{0} 被摔死了。",
+      "Bleeding": "{0} 骨折后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "boulder",
+    "translations": {
+      "None": "{0} 被巨型僵尸的石头砸死了。",
+      "Bleeding": "{0} 被巨型僵尸投出的石块砸伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "breath",
+    "translations": {
+      "None": "{0} 窒息而亡。"
+    }
+  },
+  {
+    "death-cause": "burner",
+    "translations": {
+      "None": "{0} 被巨型僵尸烧死了。",
+      "Bleeding": "{0} 被巨型僵尸灼伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "burning",
+    "translations": {
+      "None": "{0} 被烧死了。",
+      "Bleeding": "{0} 被烧伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "charge",
+    "translations": {
+      "None": "{0} 被炸药炸死了。",
+      "Item": "{0} 被 {3} 炸死了。",
+      "Item, Killer": "{1} 用 {3} 把 {0} 炸死了。",
+      "Killer": "{1} 用炸药把 {0} 炸死了。",
+      "Suicide": "{0} 使用炸药时离得太近，把自己炸死了。",
+      "Item, Suicide": "{0} 使用 {3} 时离得太近，把自己炸死了。"
+    }
+  },
+  {
+    "death-cause": "food",
+    "translations": {
+      "None": "{0} 被饿死了。"
+    }
+  },
+  {
+    "death-cause": "freezing",
+    "translations": {
+      "None": "{0} 被冻成冰棍了。"
+    }
+  },
+  {
+    "death-cause": "grenade",
+    "translations": {
+      "None": "{0} 被手雷炸死了。",
+      "Item": "{0} 被 {3} 炸死了。",
+      "Killer": "{1} 使用手雷把 {0} 炸死了。",
+      "Item, Killer": "{1} 使用 {3} 把 {0} 炸死了。",
+      "Suicide": "{0} 把激活的手雷扔到了自己脚下。",
+      "Item, Suicide": "{0} 把激活的 {3} 扔到了自己脚下。",
+      "Bleeding": "{0} 被手雷炸伤后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 炸伤后流血而亡。",
+      "Killer, Bleeding": "{0} 被 {1} 用手雷炸伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 使用 {3} 炸伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 被自己的手雷炸伤后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 被自己的 {3} 炸伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "gun",
+    "translations": {
+      "None": "{0} 的 {2} 被子弹击中了。",
+      "Item": "{0} 在 {4} 米外被 {3} 击中了 {2}。",
+      "Killer": "{0} 在 {4} 米外被 {1} 击中了 {2}。",
+      "Item, Killer": "{0} 在 {4} 米外被 {1} 使用 {3} 击中了 {2}。",
+      "Bleeding": "{0} 的 {2} 被击中后流血而亡。",
+      "Item, Bleeding": "{0} 在 {4} 米外被 {3} 击中 {2} 后流血而亡。",
+      "Killer, Bleeding": "{0} 在 {4} 米外被 {1} 击中 {2} 后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 在 {4} 米外被 {1} 使用 {3} 击中 {2} 后流血而亡。",
+      "Player3": "{0} 被来自 {5} 驾驶载具的车载武器击中了 {2}。",
+      "Killer, Player3": "{1} 在 {5} 驾驶的载具内，从 {4} 米外击中了 {0} 的 {2}。",
+      "Item, Killer, Player3": "{1} 在 {5} 驾驶的载具内，从 {4} 米外使用 {3} 击中了 {0} 的 {2}。",
+      "Killer, Player3, Bleeding": "{0} 被 {1} 从 {5} 驾驶的载具内于 {4} 米外击中 {2} 后流血而亡。",
+      "Item, Killer, Player3, Bleeding": "{0} 被 {1} 从 {5} 驾驶的载具内于 {4} 米外使用 {3} 击中 {2} 后流血而亡。",
+      "Killer, Item2": "{0} 在 {4} 米外被 {1} 从 {6} 上击中了 {2}。",
+      "Item, Killer, Item2": "{1} 使用 {6} 上的 {3}，从 {4} 米外击中了 {0} 的 {2}。",
+      "Killer, Item2, Bleeding": "{0} 被 {1} 从 {6} 上于 {4} 米外击中 {2} 后流血而亡。",
+      "Item, Killer, Item2, Bleeding": "{0} 被 {1} 使用 {6} 上的 {3} 于 {4} 米外击中 {2} 后流血而亡。",
+      "Killer, Player3, Item2": "{1} 在 {5} 驾驶的 {6} 内，从 {4} 米外击中了 {0} 的 {2}。",
+      "Item, Killer, Player3, Item2": "{1} 在 {5} 驾驶的 {6} 内，从 {4} 米外使用 {3} 击中了 {0} 的 {2}。",
+      "Killer, Player3, Item2, Bleeding": "{0} 被 {1} 从 {5} 驾驶的 {6} 内于 {4} 米外击中 {2} 后流血而亡。",
+      "Item, Killer, Player3, Item2, Bleeding": "{0} 被 {1} 从 {5} 驾驶的 {6} 内于 {4} 米外使用 {3} 击中 {2} 后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "infection",
+    "translations": {
+      "None": "{0} 因感染而死。",
+      "Item": "{0} 被 {3} 感染而死。",
+      "Bleeding": "{0} 被感染后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 感染后流血而亡。",
+      "Killer": "{0} 被 {1} 感染而死。",
+      "Item, Killer": "{0} 被 {1} 使用 {3} 感染而死。",
+      "Killer, Bleeding": "{0} 被 {1} 感染后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 使用 {3} 感染后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "kill",
+    "translations": {
+      "None": "{0} 被管理员抹杀了。",
+      "Killer": "管理员 {1} 抹杀了 {0}。",
+      "Suicide": "管理员 {0} 抹杀了自己。"
+    }
+  },
+  {
+    "death-cause": "landmine",
+    "translations": {
+      "None": "{0} 踩到了地雷。",
+      "Item2": "{0} 踩到了被 {6} 引爆的地雷。",
+      "Item": "{0} 被 {3} 炸死了。",
+      "Item, Item2": "{0} 被 {6} 引爆的 {3} 炸死了。",
+      "Player3": "{0} 被 {5} 引爆的地雷炸死了。",
+      "Player3, Item2": "{0} 被 {5} 使用 {6} 引爆的地雷炸死了。",
+      "Item, Player3": "{0} 被 {5} 引爆的 {3} 炸死了。",
+      "Item, Player3, Item2": "{0} 被 {5} 使用 {6} 引爆的 {3} 炸死了。",
+      "Killer": "{0} 被 {1} 的地雷炸死了。",
+      "Killer, Item2": "{0} 被 {6} 引爆的、由 {1} 埋下的地雷炸死了。",
+      "Item, Killer": "{0} 被 {1} 的 {3} 炸死了。",
+      "Item, Killer, Item2": "{0} 被 {6} 引爆的、由 {1} 埋下的 {3} 炸死了。",
+      "Killer, Player3": "{5} 引爆了 {1} 埋下的地雷，炸死了 {0}。",
+      "Killer, Player3, Item2": "{5} 使用 {6} 引爆了 {1} 埋下的地雷，炸死了 {0}。",
+      "Item, Killer, Player3": "{5} 引爆了 {1} 埋下的 {3}，炸死了 {0}。",
+      "Item, Killer, Player3, Item2": "{5} 使用 {6} 引爆了 {1} 埋下的 {3}，炸死了 {0}。",
+      "Suicide": "{0} 踩到了自己埋下的地雷。",
+      "Suicide, Item2": "{0} 使用 {6} 引爆自己埋下的地雷时离得太近。",
+      "Item, Suicide": "{0} 被自己埋下的 {3} 炸死了。",
+      "Item, Suicide, Item2": "{0} 使用 {6} 引爆自己埋下的 {3} 时离得太近。",
+      "Suicide, Player3": "{0} 被 {5} 引爆的地雷炸死了。",
+      "Suicide, Player3, Item2": "{0} 被 {5} 使用 {6} 引爆的地雷炸死了。",
+      "Item, Suicide, Player3": "{0} 被 {5} 引爆的 {3} 炸死了。",
+      "Item, Suicide, Player3, Item2": "{0} 被 {5} 使用 {6} 引爆的 {3} 炸死了。",
+      "Bleeding": "{0} 被地雷炸伤后流血而亡。",
+      "Item2, Bleeding": "{0} 被 {6} 引爆的地雷炸伤后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 炸伤后流血而亡。",
+      "Item, Item2, Bleeding": "{0} 被 {6} 引爆的 {3} 炸伤后流血而亡。",
+      "Player3, Bleeding": "{0} 被 {5} 引爆的地雷炸伤后流血而亡。",
+      "Player3, Item2, Bleeding": "{0} 被 {5} 使用 {6} 引爆的地雷炸伤后流血而亡。",
+      "Item, Player3, Bleeding": "{0} 被 {5} 引爆的 {3} 炸伤后流血而亡。",
+      "Item, Player3, Item2, Bleeding": "{0} 被 {5} 使用 {6} 引爆的 {3} 炸伤后流血而亡。",
+      "Killer, Bleeding": "{0} 被 {1} 的地雷炸伤后流血而亡。",
+      "Killer, Item2, Bleeding": "{0} 被 {6} 引爆的、由 {1} 埋下的地雷炸伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 的 {3} 炸伤后流血而亡。",
+      "Item, Killer, Item2, Bleeding": "{0} 被 {6} 引爆的、由 {1} 埋下的 {3} 炸伤后流血而亡。",
+      "Killer, Player3, Bleeding": "{0} 被 {5} 引爆的、由 {1} 埋下的地雷炸伤后流血而亡。",
+      "Killer, Player3, Item2, Bleeding": "{0} 被 {5} 使用 {6} 引爆的、由 {1} 埋下的地雷炸伤后流血而亡。",
+      "Item, Killer, Player3, Bleeding": "{0} 被 {5} 引爆的、由 {1} 埋下的 {3} 炸伤后流血而亡。",
+      "Item, Killer, Player3, Item2, Bleeding": "{0} 被 {5} 使用 {6} 引爆的、由 {1} 埋下的 {3} 炸伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 踩到了自己埋下的地雷，被炸伤后流血而亡。",
+      "Suicide, Item2, Bleeding": "{0} 使用 {6} 引爆自己埋下的地雷时离得太近，被炸伤后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 被自己埋下的 {3} 炸伤后流血而亡。",
+      "Item, Suicide, Item2, Bleeding": "{0} 使用 {6} 引爆自己埋下的 {3} 时离得太近，被炸伤后流血而亡。",
+      "Suicide, Player3, Bleeding": "{0} 被 {5} 引爆的地雷炸伤后流血而亡。",
+      "Suicide, Player3, Item2, Bleeding": "{0} 被 {5} 使用 {6} 引爆的地雷炸伤后流血而亡。",
+      "Item, Suicide, Player3, Bleeding": "{0} 被 {5} 引爆的 {3} 炸伤后流血而亡。",
+      "Item, Suicide, Player3, Item2, Bleeding": "{0} 被 {5} 使用 {6} 引爆的 {3} 炸伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "melee",
+    "translations": {
+      "None": "{0} 的 {2} 被近战攻击击中了。",
+      "Item": "{0} 的 {2} 被 {3} 击中了。",
+      "Killer": "{0} 的 {2} 被 {1} 用近战攻击击中了。",
+      "Item, Killer": "{0} 的 {2} 被 {1} 使用 {3} 击中了。",
+      "Bleeding": "{0} 的 {2} 被近战击中后流血而亡。",
+      "Item, Bleeding": "{0} 的 {2} 被 {3} 击中后流血而亡。",
+      "Killer, Bleeding": "{0} 的 {2} 被 {1} 用近战攻击击中后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 的 {2} 被 {1} 使用 {3} 击中后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "missile",
+    "translations": {
+      "None": "{0} 被导弹击中，血肉如烟花般盛开。",
+      "Item": "{0} 被 {3} 从 {4} 米外炸得四分五裂了。",
+      "Killer": "{1} 的导弹从 {4} 米外把 {0} 炸得四分五裂。",
+      "Item, Killer": "{1} 的 {3} 从 {4} 米外把 {0} 炸得四分五裂。",
+      "Suicide": "{0} 用导弹把自己炸飞了，血肉如烟花般盛开。",
+      "Item, Suicide": "{0} 用 {3} 把自己炸飞了，血肉如烟花般盛开。",
+      "Bleeding": "{0} 被导弹炸伤后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 从 {4} 米外炸伤后流血而亡。",
+      "Killer, Bleeding": "{0} 被 {1} 的导弹从 {4} 米外炸伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 的 {3} 从 {4} 米外炸伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 用导弹炸伤自己后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 用 {3} 炸伤自己后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "punch",
+    "translations": {
+      "None": "{0} 被胖揍了一顿。",
+      "Killer": "{0} 被 {1} 胖揍了一顿。",
+      "Bleeding": "{0} 被胖揍后流血而亡。",
+      "Killer, Bleeding": "{0} 被 {1} 胖揍一顿后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "roadkill",
+    "translations": {
+      "None": "{0} 被泥头车创死了。",
+      "Item": "{0} 被 {3} 创死了。",
+      "Killer": "{0} 被 {1} 创死了。",
+      "Item, Killer": "{1} 开着 {3} 把 {0} 创死了。",
+      "Suicide": "{0} 忘记拉手刹，被自己的载具碾死了。",
+      "Item, Suicide": "{0} 忘记拉手刹，被自己的 {3} 碾死了。",
+      "Bleeding": "{0} 被失控的载具撞伤后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 撞伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 开着 {3} 撞伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 被自己的载具碾伤后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 被自己的 {3} 碾伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "sentry",
+    "translations": {
+      "None": "{0} 被炮台击杀了。",
+      "Item": "{0} 被 {3} 击杀了。",
+      "Item, Killer": "{0} 被 {1} 的 {3} 击杀了。",
+      "Suicide": "{0} 被自己的炮台击杀了。",
+      "Item, Suicide": "{0} 被自己的 {3} 击杀了。",
+      "Bleeding": "{0} 被炮台击中后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 击中后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 的 {3} 击中后流血而亡。",
+      "Suicide, Bleeding": "{0} 被自己的炮台击伤后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 被自己的 {3} 击伤后流血而亡。",
+      "Item2": "{0} 被炮台上的 {6} 击杀了。",
+      "Item, Item2": "{0} 被 {3} 上的 {6} 击杀了。",
+      "Item, Killer, Item2": "{0} 被 {1} 的 {3} 上的 {6} 击杀了。",
+      "Suicide, Item2": "{0} 被自己炮台上的 {6} 击杀了。",
+      "Item, Suicide, Item2": "{0} 被自己的 {3} 上的 {6} 击杀了。",
+      "Item2, Bleeding": "{0} 被炮台上的 {6} 击中后流血而亡。",
+      "Item, Item2, Bleeding": "{0} 被 {3} 上的 {6} 击中后流血而亡。",
+      "Item, Killer, Item2, Bleeding": "{0} 被 {1} 的 {3} 上的 {6} 击中后流血而亡。",
+      "Suicide, Item2, Bleeding": "{0} 被自己炮台上的 {6} 击中后流血而亡。",
+      "Item, Suicide, Item2, Bleeding": "{0} 被自己的 {3} 上的 {6} 击中后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "shred",
+    "translations": {
+      "None": "{0} 被铁丝网切成肉条了。",
+      "Item": "{0} 被 {3} 切成肉条了。",
+      "Killer": "{0} 被 {1} 的铁丝网切成肉条了。",
+      "Item, Killer": "{0} 被 {1} 的 {3} 切成肉条了。",
+      "Suicide": "{0} 用铁丝网把自己加工成了肉条。",
+      "Item, Suicide": "{0} 用 {3} 把自己加工成了肉条。",
+      "Bleeding": "{0} 被铁丝网割伤后流血而亡。",
+      "Item, Bleeding": "{0} 被 {3} 割伤后流血而亡。",
+      "Killer, Bleeding": "{0} 被 {1} 的铁丝网割伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 被 {1} 的 {3} 割伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 试图用铁丝网把自己加工成肉条时流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 试图用 {3} 把自己加工成肉条时流血而亡。"
+    }
+  },
+  {
+    "death-cause": "spark",
+    "translations": {
+      "None": "{0} 被巨型僵尸电死了。",
+      "Bleeding": "{0} 被巨型僵尸电伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "spit",
+    "translations": {
+      "None": "{0} 被喷吐者击杀了。",
+      "Bleeding": "{0} 被喷吐者吐中后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "splash",
+    "translations": {
+      "None": "{0} 被爆炸溅射伤害炸碎了。",
+      "Item": "{0} 在 {4} 米外被 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Killer": "{0} 在 {4} 米外被 {1} 使用 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Suicide": "{0} 被自己造成的爆炸溅射伤害炸碎了。",
+      "Item, Suicide": "{0} 被自己使用 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Bleeding": "{0} 被爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Bleeding": "{0} 在 {4} 米外被 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 在 {4} 米外被 {1} 使用 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 被自己造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 被自己使用 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Player3": "{0} 被来自 {5} 驾驶载具的爆炸溅射伤害炸碎了。",
+      "Item, Player3": "{0} 在 {4} 米外被来自 {5} 驾驶载具的 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Killer, Player3": "{0} 在 {4} 米外被 {1} 从 {5} 驾驶的载具内使用 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Suicide, Player3": "{0} 在 {5} 驾驶的载具内，被自己造成的爆炸溅射伤害炸碎了。",
+      "Item, Suicide, Player3": "{0} 在 {5} 驾驶的载具内，被自己使用 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Player3, Bleeding": "{0} 被来自 {5} 驾驶载具的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Player3, Bleeding": "{0} 在 {4} 米外被来自 {5} 驾驶载具的 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Killer, Player3, Bleeding": "{0} 在 {4} 米外被 {1} 从 {5} 驾驶的载具内使用 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Suicide, Player3, Bleeding": "{0} 在 {5} 驾驶的载具内，被自己造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Suicide, Player3, Bleeding": "{0} 在 {5} 驾驶的载具内，被自己使用 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Item2": "{0} 在 {4} 米外被从 {6} 上发射的 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Killer, Item2": "{0} 在 {4} 米外被 {1} 使用 {6} 上的 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Suicide, Item2": "{0} 被自己使用 {6} 上的 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Item2, Bleeding": "{0} 在 {4} 米外被从 {6} 上发射的 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Killer, Item2, Bleeding": "{0} 在 {4} 米外被 {1} 使用 {6} 上的 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Suicide, Item2, Bleeding": "{0} 被自己使用 {6} 上的 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Player3, Item2": "{0} 在 {4} 米外被从 {5} 驾驶的 {6} 上发射的 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Killer, Player3, Item2": "{0} 在 {4} 米外被 {1} 从 {5} 驾驶的 {6} 内使用 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Suicide, Player3, Item2": "{0} 在 {5} 驾驶的 {6} 内，被自己使用 {3} 造成的爆炸溅射伤害炸碎了。",
+      "Item, Player3, Item2, Bleeding": "{0} 在 {4} 米外被从 {5} 驾驶的 {6} 上发射的 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Killer, Player3, Item2, Bleeding": "{0} 在 {4} 米外被 {1} 从 {5} 驾驶的 {6} 内使用 {3} 造成的爆炸溅射伤害炸伤后流血而亡。",
+      "Item, Suicide, Player3, Item2, Bleeding": "{0} 在 {5} 驾驶的 {6} 内，被自己使用 {3} 造成的爆炸溅射伤害炸伤后流血而亡。"
+    }
+  },
+  {
+    "death-cause": "suicide",
+    "translations": {
+      "None": "{0} 自我了结了。"
+    }
+  },
+  {
+    "death-cause": "vehicle",
+    "translations": {
+      "None": "{0} 在载具里被炸得粉身碎骨。",
+      "Item": "{0} 在 {3} 里被炸得粉身碎骨。",
+      "Item, Killer, Item2": "{0} 在 {3} 里被 {1} 用 {6} 从 {4} 米外炸得粉身碎骨。",
+      "Item, Killer, Item2, NoDistance": "{0} 在 {3} 里被 {1} 用 {6} 炸成了粉末。",
+      "Item, Player3, Item2": "{0} 在 {5} 驾驶的 {3} 里被 {6} 从 {4} 米外炸得粉身碎骨。",
+      "Item, Player3, Item2, NoDistance": "{0} 在 {5} 驾驶的 {3} 里被 {6} 炸成了粉末。",
+      "Item, Killer, Player3, Item2": "{0} 在 {5} 驾驶的 {3} 里被 {1} 用 {6} 从 {4} 米外炸上了天。",
+      "Item, Killer, Player3, Item2, NoDistance": "{0} 在 {5} 驾驶的 {3} 里被 {1} 用 {6} 炸上了天。",
+      "Item, Item2": "{0} 在 {3} 里被 {6} 炸得灰飞烟灭。",
+      "Item, Killer, Player3": "{0} 在 {5} 驾驶的 {3} 里被 {1} 从 {4} 米外炸得粉身碎骨。",
+      "Item, Killer, Player3, NoDistance": "{0} 在 {5} 驾驶的 {3} 里被 {1} 炸得粉身碎骨。",
+      "Item, Player3": "{0} 在 {5} 驾驶的 {3} 里于 {4} 米外被炸死了。",
+      "Item, Player3, NoDistance": "{0} 在 {5} 驾驶的 {3} 里被炸死了。",
+      "Item, Killer": "{0} 在 {3} 里被 {1} 从 {4} 米外炸飞了。",
+      "Item, Killer, NoDistance": "{0} 在 {3} 里被 {1} 炸飞了。",
+      "Suicide": "{0} 与载具同归于尽。",
+      "Item, Suicide": "{0} 与 {3} 同归于尽。",
+      "Item, Suicide, Item2": "{0} 用 {6} 与 {3} 同归于尽。",
+      "Item, Suicide, Player3, Item2": "{0} 用 {6} 与 {5} 驾驶的 {3} 同归于尽。",
+      "Item, Suicide, Player3": "{0} 在 {5} 驾驶的 {3} 里把自己炸成了灰。",
+      "Suicide, Player3": "{0} 在 {5} 驾驶的载具里把自己炸成了灰。"
+    }
+  },
+  {
+    "death-cause": "water",
+    "translations": {
+      "None": "{0} 被淹死了。"
+    }
+  },
+  {
+    "death-cause": "zombie",
+    "translations": {
+      "None": "{0} 被僵尸吃掉了。",
+      "Bleeding": "{0} 被僵尸攻击后失血过多而亡。"
+    }
+  },
+  {
+    "custom-key": "maincamp",
+    "translations": {
+      "None": "{0} 因试图蹲守复活点而被抹杀！",
+      "Item": "{0} 因试图使用 {3} 蹲守复活点而被抹杀！",
+      "Item, Killer": "{0} 因试图在 {4} 米外使用 {3} 蹲守刚离开复活点的 {1} 而被抹杀！",
+      "Item, Killer, NoDistance": "{0} 因试图使用 {3} 蹲守刚离开复活点的 {1} 而被抹杀！",
+      "Bleeding": "{0} 在试图蹲守复活点时流血而亡。",
+      "Item, Bleeding": "{0} 在试图使用 {3} 蹲守复活点时流血而亡。",
+      "Item, Killer, Bleeding": "{0} 在试图于 {4} 米外使用 {3} 蹲守刚离开复活点的 {1} 时流血而亡。",
+      "Item, Killer, Bleeding, NoDistance": "{0} 在试图使用 {3} 蹲守刚离开复活点的 {1} 时流血而亡。"
+    }
+  },
+  {
+    "custom-key": "maindeath",
+    "translations": {
+      "None": "{0} 在试图进入敌方基地时被抹杀。"
+    }
+  },
+  {
+    "custom-key": "explosive-consumable",
+    "translations": {
+      "None": "{0} 吃下了爆炸性食物。",
+      "Item": "{0} 吃下了 {3}。",
+      "Item, Killer": "{0} 成功吃下 {3}，把 {1} 也一起炸死了。"
+    }
+  },
+  {
+    "item-cause": "d6424d03-4309-417d-bc5f-17814af905a8",
+    "translations": {
+      "None": "{0} 被迫击炮炸死了。",
+      "Item": "{0} 被迫击炮炸死了。",
+      "Killer": "{0} 在 {4} 米外被 {1} 的迫击炮炸死了。",
+      "Item, Killer": "{0} 在 {4} 米外被 {1} 的迫击炮炸死了。",
+      "Suicide": "{0} 发射了一枚迫击炮弹，把自己炸死了。",
+      "Item, Suicide": "{0} 发射了一枚迫击炮弹，把自己炸死了。",
+      "Bleeding": "{0} 被迫击炮炸伤后流血而亡。",
+      "Item, Bleeding": "{0} 被迫击炮炸伤后流血而亡。",
+      "Killer, Bleeding": "{0} 在 {4} 米外被 {1} 的迫击炮炸伤后流血而亡。",
+      "Item, Killer, Bleeding": "{0} 在 {4} 米外被 {1} 的迫击炮炸伤后流血而亡。",
+      "Suicide, Bleeding": "{0} 发射了一枚迫击炮弹，炸伤自己后流血而亡。",
+      "Item, Suicide, Bleeding": "{0} 发射了一枚迫击炮弹，炸伤自己后流血而亡。"
+    }
+  }
+]
