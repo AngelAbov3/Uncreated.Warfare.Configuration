@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 4
+  AmmoConsumed: 6
   Items:
     - 9ba5db5cbd2c4b51bc236122a4c6b205 # HJ-8 Munition
     - 9ba5db5cbd2c4b51bc236122a4c6b205

@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 3
+  AmmoConsumed: 6
   Items:
     - 3c0a94af5af24901a9e3207f3e9ed0ba # Stinger Munition
     - 3c0a94af5af24901a9e3207f3e9ed0ba

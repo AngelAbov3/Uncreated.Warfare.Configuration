@@ -13,7 +13,7 @@ Crew:
 StartingItems:
   - 08677ddc06604ac0b81f3ad8a65eb182 # Heavy Oridnance Crate
 Rearm:
-  AmmoConsumed: 2
+  AmmoConsumed: 3
   Items:
     - 523c49ce4df44d46ba37be0dd6b4504b  # .50 Cal Ammunition Crate
     - 523c49ce4df44d46ba37be0dd6b4504b
