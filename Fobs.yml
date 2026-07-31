@@ -47,14 +47,14 @@ Shovelables:
     RequiredShovelHits: 20
     CompletedStructure: edbd9a9197494f71a37bb7b14209242e 
     CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
-  # Buildable Ammo Crate
-  - Foundation: 92b8b7dd56da42c2a744a7100eac5790
-    Icon: Effects:Fobs:Bunker
+   # Buildable FOB Ammo Crate
+  - Foundation: eccfe06e53d041d5b83c614ffa62ee59
+    Icon: Effects:Fobs:Ammo
     IconOffset: (0, 0.75, 0)
-    ConstuctionType: Fob
+    ConstuctionType: FobAmmoVendor
     SupplyCost: 1
     RequiredShovelHits: 6
-    CompletedStructure: edbd9a9197494f71a37bb7b14209242e 
+    CompletedStructure: 6fe208519d7c45b0be38273118eea7fd 
     CompletedEffect: ff673d4519114bddabd3b3de7fb33e69
   # TOW
   - Foundation: a68ae466fb804829a0eb0d4556071801
