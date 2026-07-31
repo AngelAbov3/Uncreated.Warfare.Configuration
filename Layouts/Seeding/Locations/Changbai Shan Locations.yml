@@ -1,0 +1,25 @@
+Locations:
+  - PlayArea: FTDM Hanzhong
+    Spawns:
+      - Team: 1
+        Zone: FTDM Hanzhong North
+        Spawns:
+          - (772.71, 171.96, 152.85)
+      - Team: 2
+        Zone: FTDM Hanzhong South
+        Spawns:
+          - (692.34, 172.53, 70.19)
+  - PlayArea: FTDM Storage Housing
+    Spawns:
+      - Team: 1
+        Zone: FTDM Storage Housing East
+        Spawns:
+          - (-436.59, 193.42, 228.95)
+          - (-436.71, 193.42, 219.45)
+          - (-436.75, 193.42, 207.57
+      - Team: 2
+        Zone: FTDM Storage Housing West
+        Spawns:
+          - (-613.03, 193.42, 192.82)
+          - (-612.94, 193.42, 185.96)
+          - (-612.66, 193.42, 177.95)

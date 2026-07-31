@@ -331,10 +331,10 @@ Quests:
         Flag: 60010
         State:
           Amount: 7
-          Buildable: "#[Fob,RepairStation,AmmoCrate]"
+          Buildable: "#[Fob,RepairStation,FobAmmoVendor]"
       - Key: b5fc53f9-6184-4233-b683-cd141d14d892
         Flag: 60018
         State:
           Amount: 10
-          Buildable: "#[Fob,RepairStation,AmmoCrate]"
+          Buildable: "#[Fob,RepairStation,FobAmmoVendor]"
     

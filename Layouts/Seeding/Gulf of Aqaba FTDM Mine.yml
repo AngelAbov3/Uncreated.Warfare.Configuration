@@ -23,8 +23,8 @@ Components:
   - Type: "Uncreated.Warfare.FreeTeamDeathmatch.FtdmService, Uncreated.Warfare.FreeTDM"
     AllowReenterSpawn: true
     Kits:
-      usa: [ usrif1, usmed1, usbre1, usar1, usmg1 ]
-      mec: [ merif1, memed1, mebre1, mear1, usmg1 ]
+      usa: [ usrif1, usmed1, usbre2, usar1, usmg1 ]
+      mec: [ merif1, memed1, mebre1, mear1, memg1 ]
 
 Phases:
   - Type: ActionPhase
