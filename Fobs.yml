@@ -50,7 +50,7 @@ Shovelables:
    # Buildable FOB Ammo Crate
   - Foundation: eccfe06e53d041d5b83c614ffa62ee59
     Icon: Effects:Fobs:Ammo
-    IconOffset: (0, 0.75, 0)
+    IconOffset: (0, 1.2, 0)
     ConstuctionType: FobAmmoVendor
     SupplyCost: 1
     RequiredShovelHits: 6
